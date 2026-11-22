@@ -108,6 +108,17 @@ for path, s in all_pages.items():
         for tag in re.findall(r"<(?:label|input|textarea|select)\b[^>]*>", modal.group(0)):
             check(not re.search(r'class="[^"]*\btext-white\b', tag), f"{where} texte blanc invisible dans la fenêtre Nous contacter : {tag[:90]}")
 
+    # 4c. RGPD : chaque formulaire a une case de consentement obligatoire et un lien vers la politique de confidentialité
+    for fm in re.finditer(r"<form\b(.*?)>(.*?)</form>", s, re.S):
+        fbody = fm.group(2)
+        if "WebToLeadForm" in fm.group(1):
+            check('type="checkbox"' in fbody.replace("type = 'checkbox'", 'type="checkbox"') and "politique-de-confidentialite" in fbody,
+                  f"{where} formulaire Zoho sans case de consentement")
+            continue
+        check(re.search(r'<input type="checkbox"[^>]*name="consentement"[^>]*required', fbody) is not None,
+              f"{where} formulaire sans case de consentement RGPD obligatoire")
+        check("/a-propos/politique-de-confidentialite" in fbody, f"{where} formulaire sans lien vers la politique de confidentialité")
+
     # 5. Chaque question de FAQ a sa réponse
     for m in re.finditer(r"<button data-faq\b.*?</button>(.{0,40})", s, re.S):
         check('class="faq-answer' in m.group(1), f"{where} question de FAQ sans réponse")

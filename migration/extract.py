@@ -121,6 +121,19 @@ def netlify_form(m, page):
     hidden = (f'<input type="hidden" name="form-name" value="{fid}"/>'
               f'<input type="hidden" name="page" value="/{page}"/>'
               '<p class="hidden" aria-hidden="true"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"/></label></p>')
+    dark = "text-white/80" in body
+    lab = "text-white/80" if dark else "text-gray-600"
+    if fid == "newsletter":
+        texte = ("J'accepte de recevoir la newsletter d'ACK Consulting. Je peux me désinscrire à tout moment "
+                 "via le lien présent dans chaque e-mail.")
+    else:
+        texte = ("J'accepte qu'ACK Consulting utilise mes données pour traiter ma demande et me recontacter.")
+    consent = (f'<div class="flex items-start gap-2 text-left"><input type="checkbox" id="rgpd-{fid}-{len(forms_seen[fid])}" name="consentement" value="oui" required class="mt-1 shrink-0"/>'
+               f'<label for="rgpd-{fid}-{len(forms_seen[fid])}" class="text-xs {lab} leading-relaxed">{H.escape(texte)} '
+               f'<a href="/a-propos/politique-de-confidentialite" target="_blank" class="underline">Politique de confidentialité</a>. *</label></div>')
+    body = re.sub(r"(<button\b[^>]*type=\"submit\")", consent + r"\1", body, count=1)
+    if "consentement" not in body:
+        raise SystemExit(f"Case de consentement non insérée : {fid} sur {page}")
     ok = "".join(f"<p>{H.escape(t)}</p>" for t in SUCCESS[fid])
     return (f'<form{attrs} name="{fid}" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-form="{fid}">'
             f"{hidden}{body}</form>"

@@ -65,7 +65,9 @@
       var err = form.parentNode.querySelector('[data-error="' + id + '"]');
       if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = "..."; }
       if (err) err.classList.add("hidden");
-      var data = new URLSearchParams(new FormData(form)).toString();
+      var fd = new FormData(form);
+      fd.set("page", window.location.pathname);
+      var data = new URLSearchParams(fd).toString();
       fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: data })
         .then(function (r) {
           if (!r.ok) throw new Error(r.status);

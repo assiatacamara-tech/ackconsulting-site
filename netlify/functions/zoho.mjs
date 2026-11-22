@@ -36,7 +36,7 @@ const FIELD_LABELS = {
   company: "Société", entreprise: "Société", website: "Site web", sector: "Secteur", services: "Services proposés",
   target: "Cible", message: "Message", enjeu: "Enjeu", profil: "Profil", taille: "Taille de l'équipe commerciale",
   objectif: "Objectif", delai: "Délai", commerciaux: "Nombre de commerciaux envisagés", how_heard: "Comment nous avez-vous connu ?",
-  page: "Page du site",
+  page: "Page du site", consentement: "Consentement RGPD (case cochée)",
 };
 
 export function toZohoFields(formName, data) {
@@ -51,7 +51,7 @@ export function toZohoFields(formName, data) {
   if (!last) last = email ? email.split("@")[0] : "Inconnu";
   const company = (d.company || d.entreprise || "").trim() || "Non renseignée";
 
-  const lines = [`[SITE WEB] ${FORM_LABELS[formName] || formName}`];
+  const lines = [`[SITE WEB] ${FORM_LABELS[formName] || formName} — reçu le ${new Date().toLocaleString("fr-FR", { timeZone: "Europe/Paris" })}`];
   for (const [k, v] of Object.entries(d)) {
     if (!v || ["form-name", "bot-field", "ip", "user_agent", "referrer"].includes(k)) continue;
     lines.push(`${FIELD_LABELS[k] || k} : ${Array.isArray(v) ? v.join(", ") : v}`);
