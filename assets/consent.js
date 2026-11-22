@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  var GTM_ID = "GTM-T45DPCWZ";
+  var GA_ID = "G-ZB9N47BPGX";
   var KEY = "ack_consentement_cookies";
   var DUREE = 1000 * 60 * 60 * 24 * 182; // le choix est redemandé au bout de 6 mois
 
@@ -20,15 +20,22 @@
   }
 
   var charge = false;
-  function chargerGTM() {
+  function chargerGA() {
     if (charge) return;
     charge = true;
     gtag("consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "granted" });
-    window.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
     var s = document.createElement("script");
     s.async = true;
-    s.src = "https://www.googletagmanager.com/gtm.js?id=" + GTM_ID;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
     document.head.appendChild(s);
+    gtag("js", new Date());
+    gtag("config", GA_ID);
+    // Chaque demande envoyée par un formulaire est comptée comme un prospect (« generate_lead »)
+    document.querySelectorAll("[data-success]").forEach(function (ok) {
+      new MutationObserver(function () {
+        if (!ok.classList.contains("hidden")) gtag("event", "generate_lead", { form_name: ok.getAttribute("data-success"), page_path: location.pathname });
+      }).observe(ok, { attributes: true, attributeFilter: ["class"] });
+    });
   }
 
   function supprimerCookiesGA() {
@@ -50,7 +57,7 @@
     enregistrer(choix);
     cacher();
     if (choix === "accepte") {
-      chargerGTM();
+      chargerGA();
     } else {
       supprimerCookiesGA();
       if (charge) location.reload();
@@ -62,6 +69,6 @@
   document.querySelectorAll("[data-cookie-settings]").forEach(function (b) { b.addEventListener("click", montrer); });
 
   var choix = lire();
-  if (choix === "accepte") chargerGTM();
+  if (choix === "accepte") chargerGA();
   else if (choix !== "refuse") montrer();
 })();
