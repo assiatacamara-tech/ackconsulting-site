@@ -16,7 +16,7 @@ SITE_URL = "https://www.ackconsulting.fr"
 
 # Menus (repris du site Sintra)
 PRESTATIONS = [
-    ("Directrice commerciale externalisée", "/directrice-commerciale-externalisee", "Direction, management et pilotage, à temps partagé", "📋"),
+    ("Direction commerciale externalisée", "/directrice-commerciale-externalisee", "Direction, management et pilotage, à temps partagé", "📋"),
     ("Manager de transition commercial", "/manager-de-transition-commercial", "En urgence", "⚡"),
     ("Structuration commerciale – Zéro Lead Perdu", "/zero-lead-perdu", "Process, pipeline et KPI", "🎯"),
     ("Coaching commercial & manager", "/coaching", "Commercial & managérial", "🏋️"),
