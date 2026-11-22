@@ -99,7 +99,7 @@ def page_html(meta, body, blocks):
         + f'\n<main class="{H.escape(meta["main_class"])}">\n{body}\n</main>\n'
         + footer
         + "\n" + blocks["cookie-banner"]
-        + '\n<script src="/assets/site.js" defer></script>\n<script src="/assets/consent.js" defer></script>'
+        + '\n<script src="/assets/site.js" defer></script>\n<script src="/assets/consent.js" defer></script>\n<script src="/assets/suivi.js" defer></script>'
         + ('\n<script src="/assets/video.js" defer></script>' if "data-video=" in body else "")
         + '\n</body>\n</html>\n'
     )

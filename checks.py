@@ -145,7 +145,9 @@ for path, s in all_pages.items():
     if os.path.exists(snap_file) and main and path not in modifiees:
         old = re.search(r"<main\b.*?</main>", open(snap_file, encoding="utf-8").read(), re.S)
         if old:
-            a, b = text_of(old.group(0)), text_of(main.group(0))
+            # Accents affichés en code sur l'ancien site (« r\\u00e9ussi ») : corrigés au lot 1, comparés décodés
+            a = re.sub(r"\\u([0-9a-fA-F]{4})", lambda u: chr(int(u.group(1), 16)), text_of(old.group(0)))
+            b = text_of(main.group(0))
             if a != b:
                 i = next((k for k in range(min(len(a), len(b))) if a[k] != b[k]), min(len(a), len(b)))
                 check(False, f"{where} texte différent du site actuel vers : « …{a[max(0, i - 40):i + 40]}… » / « …{b[max(0, i - 40):i + 40]}… »")
@@ -194,6 +196,32 @@ for name in fields:
     check(f'"{name}"' in zoho_js or f"\n  {name}:" in zoho_js, f"[formulaire {name}] non prévu dans l'envoi vers Zoho (netlify/functions/zoho.mjs)")
 for name, variants in fields.items():
     check(len(variants) == 1, f"[formulaire {name}] champs différents selon les pages : {variants}")
+
+# 10. Lot 1 (22/11/2026) : accents affichés en code, images lourdes, titres et descriptions trop longs,
+#     données structurées lisibles, articles balisés, concurrence avec acksalesmatch.fr
+for path, page in pages():
+    visible = re.sub(r"<(script|style)\b.*?</\1>", " ", page, flags=re.S)
+    check(not re.search(r"\\u[0-9a-fA-F]{4}", visible), f"[{path}] accent affiché en code (\\u00e9…)")
+    for j in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
+        try:
+            json.loads(j)
+            ok_json = True
+        except ValueError:
+            ok_json = False
+        check(ok_json, f"[{path}] données structurées illisibles")
+    if 'content="noindex' in page:
+        continue
+    t = re.search(r"<title>(.*?)</title>", page, re.S)
+    check(t and len(H.unescape(t.group(1))) <= 65, f"[{path}] titre Google de plus de 65 caractères")
+    d = re.search(r'<meta name="description" content="([^"]*)"', page)
+    check(d and len(H.unescape(d.group(1))) <= 175, f"[{path}] description Google de plus de 175 caractères")
+    check(not (t and re.search(r"commercial freelance", t.group(1), re.I)), f"[{path}] titre visant « commercial freelance » (réservé à acksalesmatch.fr)")
+    if path.startswith("/blog/"):
+        check('"@type": "Article"' in page or '"@type":"Article"' in page, f"[{path}] article sans données structurées Article")
+for dp, _, fs in os.walk(os.path.join(DIST, "assets", "img")):
+    for f in fs:
+        size = os.path.getsize(os.path.join(dp, f))
+        check(size <= 400 * 1024, f"[assets/img/{f}] image de plus de 400 Ko ({size // 1024} Ko) : la convertir en WebP")
 
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
