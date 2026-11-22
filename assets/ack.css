@@ -137,16 +137,13 @@
   .ack-section { padding: 64px 0; }
   .ack-hero { padding: 112px 0 48px; }
   .ack-hero__grille, .ack-video, .ack-fondatrice, .ack-final { grid-template-columns: 1fr; gap: 32px; }
-  .ack-hero__photo { order: -1; max-width: 420px; }
+  .ack-hero__photo { max-width: 360px; margin: 8px auto 0; }
   .ack-hero__carte { left: 12px; bottom: 12px; }
   .ack-chiffres { grid-template-columns: repeat(2, 1fr); }
   .ack-offres { grid-template-columns: 1fr; }
   .ack-offre, .ack-offre--phare { grid-column: auto; }
   .ack-cas, .ack-etapes, .ack-points { grid-template-columns: 1fr; }
   .ack-final { padding: 36px 24px; }
-}
-@media (max-width: 960px) {
-  .ack-hero__photo { display: none; }
 }
 @media (max-width: 520px) {
   .ack-btn { width: 100%; }

@@ -187,7 +187,7 @@ for name, variants in fields.items():
 
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
-locked += ["assets/site.css", "assets/site.js", "assets/consent.js"]
+locked += ["assets/site.css", "assets/site.js", "assets/consent.js", "assets/ack.css", "assets/video.js"]
 state = {f: hashlib.sha256(open(os.path.join(ROOT, f), "rb").read()).hexdigest() for f in locked}
 if "--lock" in sys.argv:
     json.dump(state, open(LOCKS, "w"), indent=1, sort_keys=True)
