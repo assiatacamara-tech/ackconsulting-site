@@ -22,8 +22,13 @@ const FORM_LABELS = {
 // « Comment nous avez-vous connu ? » → choix existants du champ Zoho « Canal d'acquisition »
 const CANAL = {
   LinkedIn: "LinkedIn",
+  "Recherche Google": "Recherche google",
   "Recommandation ou bouche-à-oreille": "Recommandation / Bouche-à-oreille",
   "Événement ou salon": "Réseau professionnel / Événement",
+  Malt: "Malt",
+  "ACK Sales Match": "ACK Sales Match",
+  IA: "IA",
+  Autre: "Autre",
 };
 
 const FIELD_LABELS = {
@@ -61,7 +66,7 @@ export function toZohoFields(formName, data) {
     Phone: (d.phone || d.tel || "").trim(),
     Description: lines.join("\n"),
   };
-  if (CANAL[d.how_heard]) fields.LEADCF3 = CANAL[d.how_heard];
+  fields.LEADCF3 = CANAL[d.how_heard] || "Site web — formulaire de contact";
   if (formName === "qualification-formation") fields.LEADCF5 = "Me former ou former un membre de mon équipe";
   return fields;
 }
