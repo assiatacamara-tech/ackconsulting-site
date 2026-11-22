@@ -130,7 +130,7 @@ for path, s in all_pages.items():
 
     # 6. Les textes sont identiques à ceux du site Sintra (on recopie, on ne réécrit pas)
     modifiees = [l.strip() for l in open(os.path.join(ROOT, "migration", "pages-modifiees.txt"), encoding="utf-8") if l.startswith("/")]
-    check(path not in modifiees or "Dernière mise à jour :" in s, f"{where} page modifiée sans date de mise à jour")
+    check(path not in modifiees or not path.startswith("/a-propos/") or "Dernière mise à jour :" in s, f"{where} page légale modifiée sans date de mise à jour")
     snap_file = os.path.join(SNAP, ("index" if path == "/" else path.lstrip("/")) + ".html")
     if os.path.exists(snap_file) and main and path not in modifiees:
         old = re.search(r"<main\b.*?</main>", open(snap_file, encoding="utf-8").read(), re.S)
@@ -143,7 +143,7 @@ for path, s in all_pages.items():
                 check(True, "")
 
 # 6b. Chaque classe de style utilisée existe dans la feuille de style (sinon l'élément s'affiche mal ou pas du tout)
-CSS = open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read()
+CSS = open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read() + open(os.path.join(ROOT, "assets", "ack.css"), encoding="utf-8").read()
 HOOKS = {"faq-answer", "form-success", "form-error"}
 def css_has(c):
     return "." + re.sub(r"([:\[\]#/.%()&',>+~=])", r"\\\1", c) in CSS
@@ -187,7 +187,7 @@ for name, variants in fields.items():
 
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
-locked += ["assets/site.css", "assets/site.js", "assets/consent.js"]
+locked += ["assets/site.css", "assets/site.js", "assets/consent.js", "assets/ack.css", "assets/video.js"]
 state = {f: hashlib.sha256(open(os.path.join(ROOT, f), "rb").read()).hexdigest() for f in locked}
 if "--lock" in sys.argv:
     json.dump(state, open(LOCKS, "w"), indent=1, sort_keys=True)

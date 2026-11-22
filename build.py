@@ -87,6 +87,7 @@ def page_html(meta, body, blocks):
         '<link rel="icon" type="image/png" href="/assets/img/img-74454af550a3fb61ba227ab610003b56.png"/>',
         '<link rel="apple-touch-icon" href="/assets/img/img-74454af550a3fb61ba227ab610003b56.png"/>',
         '<link rel="stylesheet" href="/assets/site.css"/>',
+        '<link rel="stylesheet" href="/assets/ack.css"/>',
     ]
     head += [f'<script type="application/ld+json">{j}</script>' for j in meta.get("jsonld", [])]
     header = blocks["header"] if meta["header"] else ""
@@ -98,7 +99,9 @@ def page_html(meta, body, blocks):
         + f'\n<main class="{H.escape(meta["main_class"])}">\n{body}\n</main>\n'
         + footer
         + "\n" + blocks["cookie-banner"]
-        + '\n<script src="/assets/site.js" defer></script>\n<script src="/assets/consent.js" defer></script>\n</body>\n</html>\n'
+        + '\n<script src="/assets/site.js" defer></script>\n<script src="/assets/consent.js" defer></script>'
+        + ('\n<script src="/assets/video.js" defer></script>' if "data-video=" in body else "")
+        + '\n</body>\n</html>\n'
     )
 
 
