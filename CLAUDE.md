@@ -21,3 +21,5 @@ Lire d'abord DECISIONS.md.
 - src/partials/ : blocs communs (en-tête, pieds de page, formulaire de contact).
 - assets/ : styles, scripts, images, documents.
 - snapshot/ : copie de référence du site Sintra (ne pas modifier). migration/ : outils de recopie.
+- Depuis le 22/11/2026, src/ est la source : ne plus relancer migration/extract.py (cela effacerait les modifications validées).
+- Toute page dont le texte change sur décision : l'ajouter à migration/pages-modifiees.txt et y afficher « Dernière mise à jour : <date> ».
