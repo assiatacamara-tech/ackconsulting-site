@@ -3,6 +3,7 @@ snapshot/ackconsulting.sintra.site/_next/static/media/sintra-7b1f0fb4951fe35dfc4
 snapshot/ackconsulting.sintra.site/_next/static/media/sintra-7f6e19fc1856448898a4cd5f30bdd80c.jpg
 snapshot/ackconsulting.sintra.site/_next/static/media/sintra-94448d8efc2a5baa67bb5b645ed80890.png
 snapshot/ackconsulting.sintra.site/_next/static/media/sintra-f5c68adcbd4d84094f8de4170c541718.png
+snapshot/eu.chat-img.sintra.ai/2a796b7f-b2b7-42ba-badc-8cc32b992ce8/a54c9b7c-da4e-481b-95f9-464e2e98c69c/Modele_plan_action_commercial_ACK_Consulting.xlsx
 snapshot/fichiers.txt
 snapshot/statuts.tsv
 snapshot/wget.log
