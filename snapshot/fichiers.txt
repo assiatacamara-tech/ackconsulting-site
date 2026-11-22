@@ -107,6 +107,7 @@ snapshot/www.ackconsulting.fr/formations/performance-commerciale.html
 snapshot/www.ackconsulting.fr/formations/prise-de-parole-en-public.html
 snapshot/www.ackconsulting.fr/formations/prospection-commerciale.html
 snapshot/www.ackconsulting.fr/index.html
+snapshot/www.ackconsulting.fr/liens.html
 snapshot/www.ackconsulting.fr/livret-accueil.pdf
 snapshot/www.ackconsulting.fr/manager-de-transition-commercial.html
 snapshot/www.ackconsulting.fr/mise-en-relation-commerciaux.html
