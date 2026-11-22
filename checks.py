@@ -105,6 +105,13 @@ for path, s in all_pages.items():
     # 4a. Formulaire Zoho : aucun titre interne Zoho visible par les visiteurs
     check("zcwf_title'" not in s and "Leads-ack" not in s, f"{where} titre interne du formulaire Zoho visible")
 
+    # 4e. Textes ACK au « nous » (hors blog) et couleurs de la charte uniquement
+    if not path.startswith("/blog"):
+        for mot in ("Je vous réponds", "Je vous recontacte", "envoyez-moi", "Envoyez-moi", "Retrouvez-moi", "Je reviens vers vous", "Je prends en charge", "Ma méthode", "Mes services", "Pourquoi me "):
+            check(mot not in s, f"{where} texte à la première personne (« {mot} ») au lieu du « nous »")
+    for vieux in ("1a6b5a", "2b8a76", "132833", "2364a1", "a06848", "c8a45e", "1fb6a6", "1477d6", "090a0a"):
+        check(vieux not in s.lower(), f"{where} couleur hors charte : #{vieux}")
+
     # 4b. Fenêtre « Nous contacter » (fond blanc) : aucun titre ni champ écrit en blanc
     modal = re.search(r"data-contact-modal.*?</form>", s, re.S)
     if modal:
