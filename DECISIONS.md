@@ -17,6 +17,8 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 
 - Fenêtre « Nous contacter » : formulaire en version claire (titres et texte saisi en foncé sur fond blanc), comme sur Sintra. Une vérification bloque désormais tout texte blanc dans cette fenêtre.
 
+- Formulaire web Zoho mis à jour par Assiata le 22/11/2026 (champ Description ajouté, Canal d'acquisition et Statut masqués aux visiteurs) : nouveau code installé sur /contact et dans l'envoi automatique.
+
 ## Points en attente de décision
 - Formulaires (décidé le 22/11/2026) : chaque demande est enregistrée par Netlify, puis envoyée dans Zoho (Prospects) via le formulaire web « Leads-ack-consulting-formulaire site ». En cas d'échec, nouvel essai automatique toutes les 15 minutes. Le détail complet de la demande est dans le champ Description.
 - Canal d'acquisition : chaque réponse à « Comment nous avez-vous connu ? » correspond à un choix Zoho (Recherche google, IA, Malt ajoutés par Assiata le 22/11/2026) ; sans réponse : « Site web — formulaire de contact ».

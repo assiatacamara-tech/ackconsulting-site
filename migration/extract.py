@@ -261,6 +261,10 @@ def js_literal(src, start_token, quote):
 
 zform = json.loads('"' + js_literal(cs, "innerHTML='", "'").replace("\\x", "\\u00").replace('"', '\\"').replace("\\'", "'") + '"').strip()
 zjs = json.loads('"' + js_literal(cs, 'n.textContent="', '"').replace("\\x", "\\u00") + '"').strip()
+# formulaire Zoho mis à jour par Assiata (22/11/2026, champ Description ajouté) : il remplace l'ancien
+if os.path.exists(os.path.join(ROOT, "migration", "zoho-webform-clean.html")):
+    zform = open(os.path.join(ROOT, "migration", "zoho-webform-clean.html"), encoding="utf-8").read()
+    zjs = open(os.path.join(ROOT, "migration", "zoho-webform.js"), encoding="utf-8").read().strip()
 open(os.path.join(ASSETS, "zoho-contact.js"), "w", encoding="utf-8").write(zjs + "\n")
 cp = os.path.join(SRC, "contact.html")
 c = open(cp, encoding="utf-8").read()
