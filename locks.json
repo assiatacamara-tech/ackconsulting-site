@@ -1,7 +1,11 @@
 {
+ "assets/ack.css": "d0045f5e095ee92b82b7151c1160b7eb4206707502d08411d003e5a3f8755763",
+ "assets/consent.js": "3e41e5383dc0962914c68802fbac1916c3ea9320573252c65cfaee85be5c568b",
  "assets/site.css": "312c396be032ed04ed2b3d321899c4df7931c3254f7ef64022a90e32ded13eed",
  "assets/site.js": "26af64c5d62e411f589f6d542ed3e122e857cdebee1a1c8e1201466e4ceb4465",
+ "assets/video.js": "e787fcc4d48702fbd7a49f695d9fc6bb31d114ce9ef79cb10ec08577c28e6406",
  "src/partials/contact-form.html": "a22f8a93efc4f376a1fb1f18bdf158305f130f136a5d4bdad0659765228b552b",
+ "src/partials/cookie-banner.html": "163dd32778904bcd32f34503a0c4c82e7904e346931ca412310ab6a504b71e1a",
  "src/partials/footer-complet.html": "e5dcf15feb43189cd7cf2d2e0cdd7053f1c51d2d5115860c7455599f49e04eea",
  "src/partials/footer-mini-squad.html": "0b2744c4c42aeae3e05855b74500296e013c2f519ef489d698c467547d2dfc59",
  "src/partials/footer-mini.html": "e5cc5a59e5038fdd47c984788759a22e94b1e035108087bf1974c50558a6dd09",
