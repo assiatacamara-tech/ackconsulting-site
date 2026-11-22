@@ -2,3 +2,4 @@
 # Elles ne sont plus comparées mot pour mot au site Sintra.
 /a-propos/mentions-legales
 /a-propos/politique-de-confidentialite
+/
