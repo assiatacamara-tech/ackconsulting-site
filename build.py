@@ -16,13 +16,13 @@ SITE_URL = "https://www.ackconsulting.fr"
 
 # Menus (repris du site Sintra)
 PRESTATIONS = [
-    ("Directrice commerciale externalisée", "/directrice-commerciale-externalisee", "À temps partagé", "📋"),
+    ("Directrice commerciale externalisée", "/directrice-commerciale-externalisee", "Direction, management et pilotage, à temps partagé", "📋"),
     ("Manager de transition commercial", "/manager-de-transition-commercial", "En urgence", "⚡"),
-    ("Structuration commerciale – Zéro Lead Perdu", "/zero-lead-perdu", "Performance commerciale", "🎯"),
-    ("Traitement de leads", "/traitement-leads", "Partiel ou total", "📥"),
+    ("Structuration commerciale – Zéro Lead Perdu", "/zero-lead-perdu", "Process, pipeline et KPI", "🎯"),
     ("Coaching commercial & manager", "/coaching", "Commercial & managérial", "🏋️"),
     ("Offre spéciale organismes de formation", "/prestation-of", "Pour les organismes de formation", "🎓"),
     ("ACK Sales Squad", "/ack-sales-squad", "Force commerciale externalisée", "🚀"),
+    ("Traitement de leads", "/traitement-leads", "Partiel ou total", "📥"),
     ("ACK Sales Match", "https://www.acksalesmatch.fr", "Trouver un commercial freelance", "🤝"),
 ]
 APROPOS = [
@@ -74,6 +74,30 @@ def strip_comments(s):
     return re.sub(r"<!--.*?-->", "", s, flags=re.S)
 
 
+CERTIFICAT = "/assets/docs/certificat-qualiopi-ack-consulting.pdf"
+LOGO_QUALIOPI = "img-e2c0ea0a6fac53b9f0effcc14d1eed81.png"
+BLOC_CERTIFICAT = (
+    '<section class="py-12 bg-[#f6f6f8]"><div class="max-w-4xl mx-auto px-6">'
+    '<div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center gap-6">'
+    f'<img src="/assets/img/{LOGO_QUALIOPI}" alt="Qualiopi — Processus certifié — République Française" class="h-12 w-auto" loading="lazy" width="200" height="40"/>'
+    '<div class="flex-1"><p class="font-bold text-[#1a1a1a] mb-1">ACK Consulting est certifié Qualiopi</p>'
+    '<p class="text-gray-600 text-sm leading-relaxed">Certificat n° CERT_S1225_1438 délivré par CEVA Solution le 09/02/2026, valable jusqu&#x27;au 08/02/2029. '
+    'La certification qualité a été délivrée au titre de la catégorie d&#x27;actions suivante : actions de formation.</p></div>'
+    f'<a href="{CERTIFICAT}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[#055388] text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-[#1e8482] transition-colors">Voir le certificat (PDF)</a>'
+    '</div></div></section>'
+)
+
+
+def lier_logos_qualiopi(html):
+    """Chaque logo Qualiopi ouvre le certificat (exigence Qualiopi)."""
+    def lier(m):
+        avant = html[max(0, m.start() - 200):m.start()]
+        if avant.rfind("<a ") > avant.rfind("</a>"):
+            return m.group(0)
+        return f'<a href="{CERTIFICAT}" target="_blank" rel="noopener" title="Voir notre certificat Qualiopi (PDF)">{m.group(0)}</a>'
+    return re.sub(r'<img[^>]*' + re.escape(LOGO_QUALIOPI) + r'[^>]*>', lier, html)
+
+
 def page_html(meta, body, blocks):
     head = [
         '<meta charset="utf-8"/>',
@@ -88,6 +112,7 @@ def page_html(meta, body, blocks):
         '<link rel="apple-touch-icon" href="/assets/img/img-74454af550a3fb61ba227ab610003b56.png"/>',
         '<link rel="stylesheet" href="/assets/site.css"/>',
         '<link rel="stylesheet" href="/assets/ack.css"/>',
+        '<link rel="stylesheet" href="/assets/complements.css"/>',
     ]
     head += [f'<script type="application/ld+json">{j}</script>' for j in meta.get("jsonld", [])]
     header = blocks["header"] if meta["header"] else ""
@@ -129,7 +154,10 @@ def build():
             m = re.match(r"<!--page\n(.*?)\n-->\n", raw, re.S)
             meta = json.loads(m.group(1))
             body = raw[m.end():]
-            out = page_html(meta, body, blocks)
+            rel_page = os.path.relpath(os.path.join(dp, f), os.path.join(SRC, "pages"))
+            if rel_page.startswith("formations"):
+                body = body + "\n" + BLOC_CERTIFICAT
+            out = lier_logos_qualiopi(page_html(meta, body, blocks))
             out = strip_comments(out)
             rel = os.path.relpath(os.path.join(dp, f), os.path.join(SRC, "pages"))
             target = os.path.join(DIST, rel)

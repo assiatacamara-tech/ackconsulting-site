@@ -25,3 +25,17 @@
 /sales-squad-diagnostic
 /traitement-leads
 /zero-lead-perdu
+/ack-sales-squad
+/blog
+/blog/audit-qualiopi
+/blog/externalisation-commerciale
+/blog/formation-prospection-commerciale
+/blog/pipeline-commercial
+/blog/plan-action-commercial
+/blog/plan-de-prospection
+/blog/prospection-commerciale
+/blog/prospection-telephonique
+/blog/relance-commerciale
+/blog/tableau-de-bord-commercial
+/blog/techniques-de-closing
+/formations/prospection-commerciale

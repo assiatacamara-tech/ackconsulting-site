@@ -46,3 +46,14 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - /mise-en-relation-commerciaux retirée de Google (noindex) et du plan du site : la recherche « commercial freelance » revient à acksalesmatch.fr (décision 7). Le lien du menu reste.
 - Clics vers Calendly (« Réserver un appel ») comptés dans Google Analytics (événement « reservation_appel »), uniquement après accord du visiteur (nouveau script assets/suivi.js, blocs verrouillés inchangés).
 - Zéro Lead Perdu : « La structuration commerciale B2B » ajouté sous « Zéro Lead Perdu » dans le titre principal (H1), validé par Assiata le 22/11/2026. Lot 1 validé par Assiata le 22/11/2026.
+
+## 22/11/2026 — Lot 4 : positionnement direction commerciale opérationnelle (brief correctif, décisions d'Assiata)
+- Voix : « nous » partout (hors blog). Accueil : titre principal (H1) remplacé par « Conseil et formation commerciale B2B pour un véritable pilotage de vos ventes » (choix d'Assiata ; recherches : formation commerciale 900/mois, conseil commercial 200, pilotage commercial 150) ; accroche validée conservée ; le titre Google garde « Formation & conseil commercial B2B ».
+- Pas de mot « recrutement » pour ACK : « constitution et intégration de l'équipe », « embaucher » à la place de « recruter ».
+- Management et pilotage commercial : section de la page Directrice commerciale externalisée (ancre #management), pas une page séparée.
+- Chiffres : « 0 → 2 M€ » et « 0 → 1 M€ » sont deux expériences différentes, précisées « dans une entreprise précédente » ; 130 % précisé « en entreprise ».
+- Offres de second plan : offre spéciale organismes de formation, ACK Sales Squad, traitement de leads (fin du menu Prestations, ligne sous les offres de l'accueil).
+- Boutons de prise de rendez-vous unifiés : « Échanger sur mon besoin commercial » (pages formations : « Échanger sur mon besoin de formation ») ; « Demander un devis » conservé pour les formations et les propositions. En-tête et pieds de page (blocs verrouillés) : à aligner après validation.
+- Accueil : section « Ce que nous prenons en charge » (Structurer, Construire, Manager, Piloter) et méthode en 5 étapes. À propos : activité actuelle distinguée de l'expérience passée.
+- Qualiopi (demande d'Assiata, nouvelle exigence) : certificat n° CERT_S1225_1438 (CEVA Solution, 09/02/2026 → 08/02/2029) en ligne (/assets/docs/certificat-qualiopi-ack-consulting.pdf) ; chaque logo Qualiopi du site ouvre le certificat ; encadré « ACK Consulting est certifié Qualiopi » sur la page Formations et chaque fiche formation. Vérifications ajoutées.
+- En-tête et pieds de page : boutons « Échanger sur mon besoin commercial », Traitement de leads après ACK Sales Squad ; validés et reverrouillés avec l'accord d'Assiata (22/11/2026). Mise en ligne du lot 4 validée par Assiata.
