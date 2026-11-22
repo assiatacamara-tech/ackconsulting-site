@@ -223,6 +223,16 @@ for dp, _, fs in os.walk(os.path.join(DIST, "assets", "img")):
         size = os.path.getsize(os.path.join(dp, f))
         check(size <= 400 * 1024, f"[assets/img/{f}] image de plus de 400 Ko ({size // 1024} Ko) : la convertir en WebP")
 
+# 11. Qualiopi : chaque logo ouvre le certificat, présenté aussi sur chaque page formation
+CERT = "/assets/docs/certificat-qualiopi-ack-consulting.pdf"
+check(os.path.isfile(os.path.join(DIST, CERT.lstrip("/"))), "certificat Qualiopi absent du site")
+for path, page in pages():
+    for m in re.finditer(r'<img[^>]*img-e2c0ea0a6fac53b9f0effcc14d1eed81\.png[^>]*>', page):
+        avant = page[max(0, m.start() - 200):m.start()]
+        check(CERT in avant[avant.rfind("<a "):] if "<a " in avant else False, f"[{path}] logo Qualiopi sans lien vers le certificat")
+    if path.startswith("/formations"):
+        check("CERT_S1225_1438" in page, f"[{path}] certificat Qualiopi non présenté sur la page formation")
+
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
 locked += ["assets/site.css", "assets/site.js", "assets/consent.js", "assets/ack.css", "assets/video.js"]
