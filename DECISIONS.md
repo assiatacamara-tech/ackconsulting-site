@@ -24,6 +24,6 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Candidatures formateurs : bouton vers le formulaire Tally (inchangé). Candidatures partenaires (/devenir-partenaire) : Zoho Prospects, marquées « Candidature partenaire ».
 
 ## Points en attente de décision
-- Mentions légales : l'hébergeur indiqué est IONOS (inexact). À remplacer par Netlify au moment de la bascule.
-- Politique de confidentialité : mentionne des cookies Google Analytics (absents du site) et ne cite pas les outils qui reçoivent les données (Netlify, Zoho, Calendly, Tally, YouTube). Texte à mettre à jour avec Assiata.
+- Pages légales (proposition du 22/11/2026, en attente de validation par Assiata) : hébergeur Netlify et nom de domaine IONOS dans les mentions légales ; base légale, destinataires et sous-traitants, droits complétés (limitation, retrait du consentement, CNIL) dans la politique de confidentialité ; mention Google Analytics conservée (installation prévue, décision d'Assiata) ; date de mise à jour affichée.
+- Bandeau cookies : à installer avec Google Analytics (la politique de confidentialité y fait référence).
 - Formulaire « Télécharger le PDF » (/diagnostic) : chez Sintra, le Diagnostic Express était envoyé automatiquement par e-mail. À recréer (Zoho).

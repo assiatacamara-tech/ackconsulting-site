@@ -124,8 +124,10 @@ for path, s in all_pages.items():
         check('class="faq-answer' in m.group(1), f"{where} question de FAQ sans réponse")
 
     # 6. Les textes sont identiques à ceux du site Sintra (on recopie, on ne réécrit pas)
+    modifiees = [l.strip() for l in open(os.path.join(ROOT, "migration", "pages-modifiees.txt"), encoding="utf-8") if l.startswith("/")]
+    check(path not in modifiees or "Dernière mise à jour :" in s, f"{where} page modifiée sans date de mise à jour")
     snap_file = os.path.join(SNAP, ("index" if path == "/" else path.lstrip("/")) + ".html")
-    if os.path.exists(snap_file) and main:
+    if os.path.exists(snap_file) and main and path not in modifiees:
         old = re.search(r"<main\b.*?</main>", open(snap_file, encoding="utf-8").read(), re.S)
         if old:
             a, b = text_of(old.group(0)), text_of(main.group(0))

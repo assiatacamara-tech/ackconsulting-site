@@ -1,0 +1,4 @@
+# Pages dont le texte a été modifié après la recopie, sur décision d'Assiata (voir DECISIONS.md).
+# Elles ne sont plus comparées mot pour mot au site Sintra.
+/a-propos/mentions-legales
+/a-propos/politique-de-confidentialite
