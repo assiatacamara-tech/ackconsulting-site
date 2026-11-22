@@ -1,0 +1,1609 @@
+--2026-11-22 08:01:55--  https://www.ackconsulting.fr/
+Resolving www.ackconsulting.fr (www.ackconsulting.fr)... 104.18.1.181, 104.18.0.181, 2606:4700::6812:1b5, ...
+Connecting to www.ackconsulting.fr (www.ackconsulting.fr)|104.18.1.181|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/index.html’
+
+     0K .......... .......... .......... .......... .......... 94.6M
+    50K .......... .........                                   18.6M=0.002s
+
+2026-11-22 08:01:56 (44.2 MB/s) - ‘snapshot/www.ackconsulting.fr/index.html’ saved [71024]
+
+--2026-11-22 08:01:57--  https://www.ackconsulting.fr/_next/static/media/1a4aa50920b5315c-s.p.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 34940 (34K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/1a4aa50920b5315c-s.p.woff2’
+
+     0K .......... .......... .......... ....                 100%  182M=0s
+
+2026-11-22 08:01:57 (182 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/1a4aa50920b5315c-s.p.woff2’ saved [34940/34940]
+
+--2026-11-22 08:01:58--  https://www.ackconsulting.fr/_next/static/media/e4af272ccee01ff0-s.p.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 48432 (47K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/e4af272ccee01ff0-s.p.woff2’
+
+     0K .......... .......... .......... .......... .......   100%  355K=0.1s
+
+2026-11-22 08:01:59 (355 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/e4af272ccee01ff0-s.p.woff2’ saved [48432/48432]
+
+--2026-11-22 08:01:59--  https://www.ackconsulting.fr/_next/static/media/sintra-74454af550a3fb61ba227ab610003b56.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 66160 (65K) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-74454af550a3fb61ba227ab610003b56.png’
+
+     0K .......... .......... .......... .......... .......... 77% 68.2M 0s
+    50K .......... ....                                       100% 27.2T=0.001s
+
+2026-11-22 08:01:59 (88.1 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-74454af550a3fb61ba227ab610003b56.png’ saved [66160/66160]
+
+--2026-11-22 08:02:00--  https://www.ackconsulting.fr/_next/static/media/sintra-e2c0ea0a6fac53b9f0effcc14d1eed81.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7397 (7.2K) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-e2c0ea0a6fac53b9f0effcc14d1eed81.png’
+
+     0K .......                                               100%  152M=0s
+
+2026-11-22 08:02:00 (152 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-e2c0ea0a6fac53b9f0effcc14d1eed81.png’ saved [7397/7397]
+
+--2026-11-22 08:02:00--  https://www.ackconsulting.fr/_next/static/css/ae64432e1a81019f.css
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/css]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/css/ae64432e1a81019f.css’
+
+     0K .......... .......... .......... .......... ..........  312M
+    50K ..                                                     5.30T=0s
+
+2026-11-22 08:02:01 (330 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/css/ae64432e1a81019f.css’ saved [54114]
+
+--2026-11-22 08:02:01--  https://www.ackconsulting.fr/_next/static/chunks/webpack-75968c00880fae47.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/webpack-75968c00880fae47.js’
+
+     0K ...                                                     124M=0s
+
+2026-11-22 08:02:01 (124 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/webpack-75968c00880fae47.js’ saved [3560]
+
+--2026-11-22 08:02:02--  https://www.ackconsulting.fr/_next/static/chunks/cd23c5ac-ffa8e0ea5874510d.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/cd23c5ac-ffa8e0ea5874510d.js’
+
+     0K .......... .......... .......... .......... ..........  292M
+    50K .......... .......... .......... .......... ..........  236M
+   100K .......... .......... .......... .......... ..........  739K
+   150K .......... ........                                     469M=0.07s
+
+2026-11-22 08:02:02 (2.42 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/cd23c5ac-ffa8e0ea5874510d.js’ saved [172832]
+
+--2026-11-22 08:02:03--  https://www.ackconsulting.fr/_next/static/chunks/2591-e48b8a1ced99f4e0.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/2591-e48b8a1ced99f4e0.js’
+
+     0K .......... .......... .......... .......... ..........  343M
+    50K .......... .......... .......... .......... ..........  147M
+   100K .......... ..........                                   457M=0.001s
+
+2026-11-22 08:02:03 (227 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/2591-e48b8a1ced99f4e0.js’ saved [123601]
+
+--2026-11-22 08:02:04--  https://www.ackconsulting.fr/_next/static/chunks/main-app-5ad2db53e59fd115.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 465 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/main-app-5ad2db53e59fd115.js’
+
+     0K                                                       100% 12.1M=0s
+
+2026-11-22 08:02:04 (12.1 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/main-app-5ad2db53e59fd115.js’ saved [465/465]
+
+--2026-11-22 08:02:05--  https://www.ackconsulting.fr/_next/static/chunks/app/layout-77b28d492c212d71.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/layout-77b28d492c212d71.js’
+
+     0K .......... .......... .........                         613K=0.05s
+
+2026-11-22 08:02:05 (613 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/layout-77b28d492c212d71.js’ saved [30327]
+
+--2026-11-22 08:02:06--  https://www.ackconsulting.fr/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js’
+
+     0K .......... .......... .......... .......... ..........  286M
+    50K .......... .......... .......... .........              509M=0s
+
+2026-11-22 08:02:07 (354 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js’ saved [91381]
+
+--2026-11-22 08:02:07--  https://www.ackconsulting.fr/formations
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations.html’
+
+     0K .......... .......... .......... .......... ..........  323M
+    50K .......... .......... .......... .......... .......... 66.3M
+   100K .......... .......... .......... .......... ..........  168M
+   150K ..                                                     5.26T=0.001s
+
+2026-11-22 08:02:08 (127 MB/s) - ‘snapshot/www.ackconsulting.fr/formations.html’ saved [156494]
+
+--2026-11-22 08:02:08--  https://www.ackconsulting.fr/nous-rejoindre
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/nous-rejoindre.html’
+
+     0K .......... .......... .......... ........               321M=0s
+
+2026-11-22 08:02:08 (321 MB/s) - ‘snapshot/www.ackconsulting.fr/nous-rejoindre.html’ saved [39604]
+
+--2026-11-22 08:02:09--  https://www.ackconsulting.fr/a-propos
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos.html’
+
+     0K .......... .......... .......... .......... ..........  347M
+    50K ........                                               16.5T=0s
+
+2026-11-22 08:02:09 (409 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos.html’ saved [60257]
+
+--2026-11-22 08:02:10--  https://www.ackconsulting.fr/blog
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog.html’
+
+     0K .......... .......... .......... .......... ..........  376M
+    50K ....                                                   9.27T=0s
+
+2026-11-22 08:02:10 (413 MB/s) - ‘snapshot/www.ackconsulting.fr/blog.html’ saved [56296]
+
+--2026-11-22 08:02:10--  https://www.ackconsulting.fr/contact
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/contact.html’
+
+     0K .......... .......... .......... .......... .......     961K=0.05s
+
+2026-11-22 08:02:11 (961 KB/s) - ‘snapshot/www.ackconsulting.fr/contact.html’ saved [48466]
+
+--2026-11-22 08:02:11--  https://www.ackconsulting.fr/directrice-commerciale-externalisee
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/directrice-commerciale-externalisee.html’
+
+     0K .......... .......... .......... .......... ..........  203M
+    50K .......... .......... ...                               647M=0s
+
+2026-11-22 08:02:12 (261 MB/s) - ‘snapshot/www.ackconsulting.fr/directrice-commerciale-externalisee.html’ saved [75550]
+
+--2026-11-22 08:02:12--  https://www.ackconsulting.fr/manager-de-transition-commercial
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/manager-de-transition-commercial.html’
+
+     0K .......... .......... .......... .......... ..........  330M
+    50K .......... .........                                    619M=0s
+
+2026-11-22 08:02:13 (378 MB/s) - ‘snapshot/www.ackconsulting.fr/manager-de-transition-commercial.html’ saved [70662]
+
+--2026-11-22 08:02:13--  https://www.ackconsulting.fr/zero-lead-perdu
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/zero-lead-perdu.html’
+
+     0K .......... .......... .......... .......... .......... 1.00M
+    50K .......... .......... .                                 358K=0.1s
+
+2026-11-22 08:02:14 (659 KB/s) - ‘snapshot/www.ackconsulting.fr/zero-lead-perdu.html’ saved [72972]
+
+--2026-11-22 08:02:15--  https://www.ackconsulting.fr/coaching
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/coaching.html’
+
+     0K .......... .......... .......... .......... ..........  897K
+    50K .......... .......... .......... ....                   535K=0.1s
+
+2026-11-22 08:02:15 (702 KB/s) - ‘snapshot/www.ackconsulting.fr/coaching.html’ saved [86670]
+
+--2026-11-22 08:02:15--  https://www.ackconsulting.fr/ack-sales-squad
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/ack-sales-squad.html’
+
+     0K .......... .......... .......... .......... ..........  305M
+    50K .......... .......... ......                            670M=0s
+
+2026-11-22 08:02:16 (376 MB/s) - ‘snapshot/www.ackconsulting.fr/ack-sales-squad.html’ saved [78494]
+
+--2026-11-22 08:02:16--  https://www.ackconsulting.fr/_next/static/media/sintra-4d7985f94a6ba0e7e4e68417feb4f58f.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1248650 (1.2M) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-4d7985f94a6ba0e7e4e68417feb4f58f.png’
+
+     0K .......... .......... .......... .......... ..........  4% 30.1M 0s
+    50K .......... .......... .......... .......... ..........  8%  143M 0s
+   100K .......... .......... .......... .......... .......... 12%  335M 0s
+   150K .......... .......... .......... .......... .......... 16%  141M 0s
+   200K .......... .......... .......... .......... .......... 20%  112M 0s
+   250K .......... .......... .......... .......... .......... 24%  124M 0s
+   300K .......... .......... .......... .......... .......... 28%  666M 0s
+   350K .......... .......... .......... .......... .......... 32%  159M 0s
+   400K .......... .......... .......... .......... .......... 36%  111M 0s
+   450K .......... .......... .......... .......... .......... 41% 78.2M 0s
+   500K .......... .......... .......... .......... .......... 45%  515M 0s
+   550K .......... .......... .......... .......... .......... 49%  279M 0s
+   600K .......... .......... .......... .......... .......... 53%  530M 0s
+   650K .......... .......... .......... .......... .......... 57%  650M 0s
+   700K .......... .......... .......... .......... .......... 61% 99.9M 0s
+   750K .......... .......... .......... .......... .......... 65%  487M 0s
+   800K .......... .......... .......... .......... .......... 69%  196M 0s
+   850K .......... .......... .......... .......... .......... 73%  663M 0s
+   900K .......... .......... .......... .......... .......... 77%  689M 0s
+   950K .......... .......... .......... .......... .......... 82%  100M 0s
+  1000K .......... .......... .......... .......... .......... 86%  668M 0s
+  1050K .......... .......... .......... .......... .......... 90%  523M 0s
+  1100K .......... .......... .......... .......... .......... 94%  676M 0s
+  1150K .......... .......... .......... .......... .......... 98%  487M 0s
+  1200K .......... .........                                  100%  446M=0.007s
+
+2026-11-22 08:02:16 (170 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-4d7985f94a6ba0e7e4e68417feb4f58f.png’ saved [1248650/1248650]
+
+--2026-11-22 08:02:17--  https://www.ackconsulting.fr/formations/performance-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/performance-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  138M
+    50K .......... .......... .......... .......... ..........  464M
+   100K .......... .......... .......... .......                566M=0.001s
+
+2026-11-22 08:02:17 (256 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/performance-commerciale.html’ saved [140731]
+
+--2026-11-22 08:02:18--  https://www.ackconsulting.fr/formations/prospection-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/prospection-commerciale.html’
+
+     0K .......... .......... .......... .......... .......... 1.22M
+    50K .......... .......... .......... .......... ........    910K=0.09s
+
+2026-11-22 08:02:18 (1.03 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/prospection-commerciale.html’ saved [101026]
+
+--2026-11-22 08:02:19--  https://www.ackconsulting.fr/formations/closing-demande-entrante
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/closing-demande-entrante.html’
+
+     0K .......... .......... .......... .......... .......... 1.13M
+    50K .......... .......... .......... .......... ..........  918K
+   100K .......... .......... .......... ..........            25.8M=0.1s
+
+2026-11-22 08:02:19 (1.39 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/closing-demande-entrante.html’ saved [144044]
+
+--2026-11-22 08:02:20--  https://www.ackconsulting.fr/formations/management-commerciaux-sedentaires
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/management-commerciaux-sedentaires.html’
+
+     0K .......... .......... .......... .......... ..........  115M
+    50K .......... .......... .......... .......... ..........  413M
+   100K .......... .......... .......... .......                545M=0.001s
+
+2026-11-22 08:02:20 (220 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/management-commerciaux-sedentaires.html’ saved [140595]
+
+--2026-11-22 08:02:21--  https://www.ackconsulting.fr/formations/organisation-commerciale-orientee-performance
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/organisation-commerciale-orientee-performance.html’
+
+     0K .......... .......... .......... .......... ..........  185M
+    50K .......... .......... .......... .......... ..........  375M
+   100K .......... .......... .......... .......... .....       449M=0s
+
+2026-11-22 08:02:21 (288 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/organisation-commerciale-orientee-performance.html’ saved [148972]
+
+--2026-11-22 08:02:22--  https://www.ackconsulting.fr/formations/gestion-stress
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/gestion-stress.html’
+
+     0K .......... .......... .......... .......... ..........  328M
+    50K .......... .......... .......... .......... ..........  256M
+   100K .......... .....                                        463M=0s
+
+2026-11-22 08:02:22 (302 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/gestion-stress.html’ saved [117804]
+
+--2026-11-22 08:02:23--  https://www.ackconsulting.fr/formations/gestion-conflits
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/gestion-conflits.html’
+
+     0K .......... .......... .......... .......... ..........  120M
+    50K .......... .......... .......... .......... ..........  399M
+   100K .......... .........                                    680M=0.001s
+
+2026-11-22 08:02:23 (209 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/gestion-conflits.html’ saved [122467]
+
+--2026-11-22 08:02:24--  https://www.ackconsulting.fr/formations/prise-de-parole-en-public
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/prise-de-parole-en-public.html’
+
+     0K .......... .......... .......... .......... ..........  112M
+    50K .......... .......... .......... .......... ..........  543M
+   100K .......... .......... ...                               955M=0.001s
+
+2026-11-22 08:02:24 (219 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/prise-de-parole-en-public.html’ saved [126884]
+
+--2026-11-22 08:02:25--  https://www.ackconsulting.fr/traitement-leads
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/traitement-leads.html’
+
+     0K .......... .......... .......... .......... ..........  244M
+    50K .......... .......... .......... ..........             518M=0s
+
+2026-11-22 08:02:25 (320 MB/s) - ‘snapshot/www.ackconsulting.fr/traitement-leads.html’ saved [93041]
+
+--2026-11-22 08:02:25--  https://www.ackconsulting.fr/prestation-of
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/prestation-of.html’
+
+     0K .......... .......... .......... .......... ..........  132M
+    50K .......... .......... .......... .......... ...         423M=0s
+
+2026-11-22 08:02:26 (194 MB/s) - ‘snapshot/www.ackconsulting.fr/prestation-of.html’ saved [96041]
+
+--2026-11-22 08:02:26--  https://www.ackconsulting.fr/a-propos/mentions-legales
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos/mentions-legales.html’
+
+     0K .......... .......... .......... .......... ......      294M=0s
+
+2026-11-22 08:02:26 (294 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos/mentions-legales.html’ saved [47434]
+
+--2026-11-22 08:02:27--  https://www.ackconsulting.fr/a-propos/conditions-generales-de-ventes
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos/conditions-generales-de-ventes.html’
+
+     0K .......... .......... .......... .......... ..........  937K
+    50K ......                                                 11.5T=0.05s
+
+2026-11-22 08:02:28 (1.03 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos/conditions-generales-de-ventes.html’ saved [57522]
+
+--2026-11-22 08:02:28--  https://www.ackconsulting.fr/a-propos/politique-de-confidentialite
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos/politique-de-confidentialite.html’
+
+     0K .......... .......... .......... .......... ..........  312M
+    50K .......                                                13.6T=0s
+
+2026-11-22 08:02:28 (358 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos/politique-de-confidentialite.html’ saved [58692]
+
+--2026-11-22 08:02:29--  https://www.ackconsulting.fr/a-propos/accessibilite-et-handicap
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos/accessibilite-et-handicap.html’
+
+     0K .......... .......... .......... .......... .......... 28.4M
+    50K ...                                                    7.41T=0.002s
+
+2026-11-22 08:02:30 (30.7 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos/accessibilite-et-handicap.html’ saved [55276]
+
+--2026-11-22 08:02:30--  https://www.ackconsulting.fr/a-propos/reglement-interieur
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/a-propos/reglement-interieur.html’
+
+     0K .......... .......... .......... .......... ..........  317M
+    50K .......... .......... .                                 575M=0s
+
+2026-11-22 08:02:30 (367 MB/s) - ‘snapshot/www.ackconsulting.fr/a-propos/reglement-interieur.html’ saved [73532]
+
+--2026-11-22 08:02:31--  https://www.ackconsulting.fr/devenir-partenaire
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/devenir-partenaire.html’
+
+     0K .......... .......... .......... .......... ..          369M=0s
+
+2026-11-22 08:02:32 (369 MB/s) - ‘snapshot/www.ackconsulting.fr/devenir-partenaire.html’ saved [43037]
+
+--2026-11-22 08:02:32--  https://www.ackconsulting.fr/faq
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/faq.html’
+
+     0K .......... .......... .......... .......... .......... 1.10M
+    50K .                                                      2.73T=0.04s
+
+2026-11-22 08:02:33 (1.13 MB/s) - ‘snapshot/www.ackconsulting.fr/faq.html’ saved [52699]
+
+--2026-11-22 08:02:33--  https://www.ackconsulting.fr/rejoindre-academie-ack
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/rejoindre-academie-ack.html’
+
+     0K .......... .......... .......... .......... .......... 1.01M
+    50K ......                                                  116K=0.1s
+
+2026-11-22 08:02:34 (539 KB/s) - ‘snapshot/www.ackconsulting.fr/rejoindre-academie-ack.html’ saved [57914]
+
+--2026-11-22 08:02:34--  https://www.ackconsulting.fr/_next/static/media/ba9851c3c22cd980-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25844 (25K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/ba9851c3c22cd980-s.woff2’
+
+     0K .......... .......... .....                           100%  410M=0s
+
+2026-11-22 08:02:35 (410 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/ba9851c3c22cd980-s.woff2’ saved [25844/25844]
+
+--2026-11-22 08:02:35--  https://www.ackconsulting.fr/_next/static/media/21350d82a1f187e9-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18744 (18K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/21350d82a1f187e9-s.woff2’
+
+     0K .......... ........                                   100%  259K=0.07s
+
+2026-11-22 08:02:36 (259 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/21350d82a1f187e9-s.woff2’ saved [18744/18744]
+
+--2026-11-22 08:02:36--  https://www.ackconsulting.fr/_next/static/media/c5fe6dc8356a8c31-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11272 (11K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/c5fe6dc8356a8c31-s.woff2’
+
+     0K .......... .                                          100%  206M=0s
+
+2026-11-22 08:02:37 (206 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/c5fe6dc8356a8c31-s.woff2’ saved [11272/11272]
+
+--2026-11-22 08:02:38--  https://www.ackconsulting.fr/_next/static/media/19cfc7226ec3afaa-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19044 (19K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/19cfc7226ec3afaa-s.woff2’
+
+     0K .......... ........                                   100% 41.6M=0s
+
+2026-11-22 08:02:38 (41.6 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/19cfc7226ec3afaa-s.woff2’ saved [19044/19044]
+
+--2026-11-22 08:02:39--  https://www.ackconsulting.fr/_next/static/media/df0a9ae256c0569c-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 10280 (10K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/df0a9ae256c0569c-s.woff2’
+
+     0K ..........                                            100%  312M=0s
+
+2026-11-22 08:02:40 (312 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/df0a9ae256c0569c-s.woff2’ saved [10280/10280]
+
+--2026-11-22 08:02:41--  https://www.ackconsulting.fr/_next/static/media/8e9860b6e62d6359-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 85272 (83K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/8e9860b6e62d6359-s.woff2’
+
+     0K .......... .......... .......... .......... .......... 60%  570K 0s
+    50K .......... .......... .......... ...                  100%  378K=0.2s
+
+2026-11-22 08:02:41 (474 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/8e9860b6e62d6359-s.woff2’ saved [85272/85272]
+
+--2026-11-22 08:02:42--  https://www.ackconsulting.fr/_next/static/media/b06b356f834173cc-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13216 (13K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/b06b356f834173cc-s.woff2’
+
+     0K .......... ..                                         100%  124M=0s
+
+2026-11-22 08:02:42 (124 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/b06b356f834173cc-s.woff2’ saved [13216/13216]
+
+--2026-11-22 08:02:43--  https://www.ackconsulting.fr/_next/static/media/23d669af23d19c95-s.woff2
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 32672 (32K) [font/woff2]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/23d669af23d19c95-s.woff2’
+
+     0K .......... .......... .......... .                    100%  264M=0s
+
+2026-11-22 08:02:44 (264 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/23d669af23d19c95-s.woff2’ saved [32672/32672]
+
+--2026-11-22 08:02:44--  https://www.ackconsulting.fr/_next/static/media/sintra-7b1f0fb4951fe35dfc41fe4d84aa8cb7.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1347142 (1.3M) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-7b1f0fb4951fe35dfc41fe4d84aa8cb7.png’
+
+     0K .......... .......... .......... .......... ..........  3%  740K 2s
+    50K .......... .......... .......... .......... ..........  7%  685K 2s
+   100K .......... .......... .......... .......... .......... 11% 37.3M 1s
+   150K .......... .......... .......... .......... .......... 15%  704K 1s
+   200K .......... .......... .......... .......... .......... 19%  400M 1s
+   250K .......... .......... .......... .......... .......... 22%  511M 1s
+   300K .......... .......... .......... .......... .......... 26%  530M 1s
+   350K .......... .......... .......... .......... .......... 30%  701K 1s
+   400K .......... .......... .......... .......... .......... 34% 89.1M 1s
+   450K .......... .......... .......... .......... .......... 38%  359M 0s
+   500K .......... .......... .......... .......... .......... 41%  505M 0s
+   550K .......... .......... .......... .......... .......... 45%  533M 0s
+   600K .......... .......... .......... .......... .......... 49%  601M 0s
+   650K .......... .......... .......... .......... .......... 53%  597M 0s
+   700K .......... .......... .......... .......... .......... 57%  346M 0s
+   750K .......... .......... .......... .......... .......... 60%  721K 0s
+   800K .......... .......... .......... .......... .......... 64% 57.8M 0s
+   850K .......... .......... .......... .......... .......... 68%  342M 0s
+   900K .......... .......... .......... .......... .......... 72%  269M 0s
+   950K .......... .......... .......... .......... .......... 76%  379M 0s
+  1000K .......... .......... .......... .......... .......... 79%  571M 0s
+  1050K .......... .......... .......... .......... .......... 83%  216M 0s
+  1100K .......... .......... .......... .......... .......... 87%  527M 0s
+  1150K .......... .......... .......... .......... .......... 91%  149M 0s
+  1200K .......... .......... .......... .......... .......... 95%  414M 0s
+  1250K .......... .......... .......... .......... .......... 98%  284M 0s
+  1300K .......... .....                                      100%  788M=0.4s
+
+2026-11-22 08:02:45 (3.59 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-7b1f0fb4951fe35dfc41fe4d84aa8cb7.png’ saved [1347142/1347142]
+
+--2026-11-22 08:02:46--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/page-c3a764f770a4c381.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/page-c3a764f770a4c381.js’
+
+     0K .....                                                  85.6M=0s
+
+2026-11-22 08:02:46 (85.6 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/page-c3a764f770a4c381.js’ saved [5576]
+
+--2026-11-22 08:02:47--  https://www.ackconsulting.fr/formations/ia-performance-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/formations/ia-performance-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  230M
+    50K .......... .......... .......... .......... .......... 75.1M
+   100K .......... .......... .......... .......... ..........  259M
+   150K                                                         764G=0.001s
+
+2026-11-22 08:02:47 (140 MB/s) - ‘snapshot/www.ackconsulting.fr/formations/ia-performance-commerciale.html’ saved [154010]
+
+--2026-11-22 08:02:48--  https://www.ackconsulting.fr/devenir-formateur
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/devenir-formateur.html’
+
+     0K .......... .......... .......... .......... ..........  711K
+    50K ......                                                  270K=0.09s
+
+2026-11-22 08:02:48 (605 KB/s) - ‘snapshot/www.ackconsulting.fr/devenir-formateur.html’ saved [57415]
+
+--2026-11-22 08:02:49--  https://www.ackconsulting.fr/_next/static/media/sintra-fd446e80d801100093a1c50c90d0a985.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1250323 (1.2M) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-fd446e80d801100093a1c50c90d0a985.png’
+
+     0K .......... .......... .......... .......... ..........  4%  726K 2s
+    50K .......... .......... .......... .......... ..........  8%  687K 2s
+   100K .......... .......... .......... .......... .......... 12%  215M 1s
+   150K .......... .......... .......... .......... .......... 16%  692K 1s
+   200K .......... .......... .......... .......... .......... 20% 36.5M 1s
+   250K .......... .......... .......... .......... .......... 24%  159M 1s
+   300K .......... .......... .......... .......... .......... 28%  634M 1s
+   350K .......... .......... .......... .......... .......... 32%  705K 1s
+   400K .......... .......... .......... .......... .......... 36%  272M 0s
+   450K .......... .......... .......... .......... .......... 40%  299M 0s
+   500K .......... .......... .......... .......... .......... 45%  302M 0s
+   550K .......... .......... .......... .......... .......... 49%  528M 0s
+   600K .......... .......... .......... .......... .......... 53% 82.5M 0s
+   650K .......... .......... .......... .......... .......... 57%  257M 0s
+   700K .......... .......... .......... .......... .......... 61%  499M 0s
+   750K .......... .......... .......... .......... .......... 65%  701K 0s
+   800K .......... .......... .......... .......... .......... 69% 97.9M 0s
+   850K .......... .......... .......... .......... .......... 73%  259M 0s
+   900K .......... .......... .......... .......... .......... 77%  165M 0s
+   950K .......... .......... .......... .......... .......... 81%  372M 0s
+  1000K .......... .......... .......... .......... .......... 85%  120M 0s
+  1050K .......... .......... .......... .......... .......... 90%  142M 0s
+  1100K .......... .......... .......... .......... .......... 94%  181M 0s
+  1150K .......... .......... .......... .......... .......... 98%  339M 0s
+  1200K .......... .......... .                               100%  374M=0.4s
+
+2026-11-22 08:02:50 (3.30 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-fd446e80d801100093a1c50c90d0a985.png’ saved [1250323/1250323]
+
+--2026-11-22 08:02:50--  https://www.ackconsulting.fr/blog/prospection-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/prospection-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  715K
+    50K .......... .......... .......... .......... .......... 1.02M
+   100K .....                                                   257M=0.1s
+
+2026-11-22 08:02:51 (899 KB/s) - ‘snapshot/www.ackconsulting.fr/blog/prospection-commerciale.html’ saved [108188]
+
+--2026-11-22 08:02:51--  https://www.ackconsulting.fr/blog/formation-prospection-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/formation-prospection-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  235M
+    50K .......... .......... .......... .......... ..........  557M
+   100K ..........                                              442M=0s
+
+2026-11-22 08:02:51 (339 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/formation-prospection-commerciale.html’ saved [112768]
+
+--2026-11-22 08:02:52--  https://www.ackconsulting.fr/blog/plan-action-commercial
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/plan-action-commercial.html’
+
+     0K .......... .......... .......... .......... ..........  138K
+    50K .......... .......... .......... .......... .....      20.6M=0.4s
+
+2026-11-22 08:02:53 (262 KB/s) - ‘snapshot/www.ackconsulting.fr/blog/plan-action-commercial.html’ saved [97925]
+
+--2026-11-22 08:02:53--  https://www.ackconsulting.fr/blog/tableau-de-bord-commercial
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/tableau-de-bord-commercial.html’
+
+     0K .......... .......... .......... .......... ..........  284M
+    50K .......... .......... .......... .......... ..........  483M
+   100K ......                                                 12.0T=0s
+
+2026-11-22 08:02:54 (381 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/tableau-de-bord-commercial.html’ saved [108993]
+
+--2026-11-22 08:02:54--  https://www.ackconsulting.fr/blog/plan-de-prospection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/plan-de-prospection.html’
+
+     0K .......... .......... .......... .......... ..........  280M
+    50K .......... .......... .......... .......... ..          387M=0s
+
+2026-11-22 08:02:55 (321 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/plan-de-prospection.html’ saved [95124]
+
+--2026-11-22 08:02:55--  https://www.ackconsulting.fr/blog/relance-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/relance-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  258M
+    50K .......... .......... .......... .......... .......     474M=0s
+
+2026-11-22 08:02:56 (332 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/relance-commerciale.html’ saved [99736]
+
+--2026-11-22 08:02:56--  https://www.ackconsulting.fr/blog/prospection-telephonique
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/prospection-telephonique.html’
+
+     0K .......... .......... .......... .......... ..........  724K
+    50K .......... .......... .......... .....                  863K=0.1s
+
+2026-11-22 08:02:57 (777 KB/s) - ‘snapshot/www.ackconsulting.fr/blog/prospection-telephonique.html’ saved [87932]
+
+--2026-11-22 08:02:57--  https://www.ackconsulting.fr/blog/pipeline-commercial
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/pipeline-commercial.html’
+
+     0K .......... .......... .......... .......... ..........  710K
+    50K .......... .......... .......... .....                  247M=0.07s
+
+2026-11-22 08:02:58 (1.18 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/pipeline-commercial.html’ saved [87101]
+
+--2026-11-22 08:02:58--  https://www.ackconsulting.fr/blog/techniques-de-closing
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/techniques-de-closing.html’
+
+     0K .......... .......... .......... .......... ..........  717K
+    50K .......... .......... .......... ....                  1.57M=0.09s
+
+2026-11-22 08:02:59 (926 KB/s) - ‘snapshot/www.ackconsulting.fr/blog/techniques-de-closing.html’ saved [86491]
+
+--2026-11-22 08:02:59--  https://www.ackconsulting.fr/blog/externalisation-commerciale
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/externalisation-commerciale.html’
+
+     0K .......... .......... .......... .......... ..........  714K
+    50K .......... .......... .......... ........              3.72M=0.08s
+
+2026-11-22 08:03:00 (1.08 MB/s) - ‘snapshot/www.ackconsulting.fr/blog/externalisation-commerciale.html’ saved [90951]
+
+--2026-11-22 08:03:00--  https://www.ackconsulting.fr/blog/audit-qualiopi
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/blog/audit-qualiopi.html’
+
+     0K .......... .......... .......... .......... ..........  714K
+    50K .......... .......... .......... ..                    1.02M=0.1s
+
+2026-11-22 08:03:01 (815 KB/s) - ‘snapshot/www.ackconsulting.fr/blog/audit-qualiopi.html’ saved [84533]
+
+--2026-11-22 08:03:01--  https://www.ackconsulting.fr/_next/static/chunks/app/contact/page-37da5bd21da677cd.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/contact/page-37da5bd21da677cd.js’
+
+     0K .......... .....                                        213M=0s
+
+2026-11-22 08:03:02 (213 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/contact/page-37da5bd21da677cd.js’ saved [15713]
+
+--2026-11-22 08:03:02--  https://www.ackconsulting.fr/_next/static/chunks/9896-b33efe76083f6e83.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/9896-b33efe76083f6e83.js’
+
+     0K .......... ..........                                   228M=0s
+
+2026-11-22 08:03:03 (228 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/9896-b33efe76083f6e83.js’ saved [20533]
+
+--2026-11-22 08:03:03--  https://www.ackconsulting.fr/_next/static/chunks/app/directrice-commerciale-externalisee/page-799b0acdba1f0354.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/directrice-commerciale-externalisee/page-799b0acdba1f0354.js’
+
+     0K .                                                      34.4M=0s
+
+2026-11-22 08:03:04 (34.4 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/directrice-commerciale-externalisee/page-799b0acdba1f0354.js’ saved [1251]
+
+--2026-11-22 08:03:04--  https://www.ackconsulting.fr/_next/static/chunks/app/manager-de-transition-commercial/page-0b9433d9ed610ae4.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/manager-de-transition-commercial/page-0b9433d9ed610ae4.js’
+
+     0K .                                                      33.6M=0s
+
+2026-11-22 08:03:04 (33.6 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/manager-de-transition-commercial/page-0b9433d9ed610ae4.js’ saved [1251]
+
+--2026-11-22 08:03:05--  https://www.ackconsulting.fr/accompagnement
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/accompagnement.html’
+
+     0K .......... .......... .......... .......... ..........  255M
+    50K .......... .........                                    427M=0s
+
+2026-11-22 08:03:05 (287 MB/s) - ‘snapshot/www.ackconsulting.fr/accompagnement.html’ saved [70682]
+
+--2026-11-22 08:03:06--  https://www.ackconsulting.fr/_next/static/media/sintra-94448d8efc2a5baa67bb5b645ed80890.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1339438 (1.3M) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-94448d8efc2a5baa67bb5b645ed80890.png’
+
+     0K .......... .......... .......... .......... ..........  3%  334K 4s
+    50K .......... .......... .......... .......... ..........  7%  683K 3s
+   100K .......... .......... .......... .......... .......... 11%  108M 2s
+   150K .......... .......... .......... .......... .......... 15%  683K 2s
+   200K .......... .......... .......... .......... .......... 19% 72.0M 1s
+   250K .......... .......... .......... .......... .......... 22% 94.1M 1s
+   300K .......... .......... .......... .......... .......... 26%  257M 1s
+   350K .......... .......... .......... .......... .......... 30%  677K 1s
+   400K .......... .......... .......... .......... .......... 34%  300M 1s
+   450K .......... .......... .......... .......... .......... 38%  303M 1s
+   500K .......... .......... .......... .......... .......... 42%  393M 1s
+   550K .......... .......... .......... .......... .......... 45%  283M 0s
+   600K .......... .......... .......... .......... .......... 49%  552M 0s
+   650K .......... .......... .......... .......... .......... 53%  410M 0s
+   700K .......... .......... .......... .......... .......... 57% 1.42M 0s
+   750K .......... .......... .......... .......... .......... 61% 1.25M 0s
+   800K .......... .......... .......... .......... .......... 64%  120M 0s
+   850K .......... .......... .......... .......... .......... 68%  207M 0s
+   900K .......... .......... .......... .......... .......... 72%  240M 0s
+   950K .......... .......... .......... .......... .......... 76%  120M 0s
+  1000K .......... .......... .......... .......... .......... 80%  285M 0s
+  1050K .......... .......... .......... .......... .......... 84%  345M 0s
+  1100K .......... .......... .......... .......... .......... 87%  317M 0s
+  1150K .......... .......... .......... .......... .......... 91%  158M 0s
+  1200K .......... .......... .......... .......... .......... 95%  171M 0s
+  1250K .......... .......... .......... .......... .......... 99%  179M 0s
+  1300K ........                                              100% 15.0T=0.4s
+
+2026-11-22 08:03:07 (2.85 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-94448d8efc2a5baa67bb5b645ed80890.png’ saved [1339438/1339438]
+
+--2026-11-22 08:03:07--  https://www.ackconsulting.fr/_next/static/chunks/app/coaching/page-2df53bf150907fec.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/coaching/page-2df53bf150907fec.js’
+
+     0K .....                                                   187M=0s
+
+2026-11-22 08:03:07 (187 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/coaching/page-2df53bf150907fec.js’ saved [5576]
+
+--2026-11-22 08:03:08--  https://www.ackconsulting.fr/_next/static/media/sintra-179c6e003bd6bba7ed1ed7cc021dd639.png
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356740 (1.3M) [image/png]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-179c6e003bd6bba7ed1ed7cc021dd639.png’
+
+     0K .......... .......... .......... .......... ..........  3%  703K 2s
+    50K .......... .......... .......... .......... ..........  7%  692K 2s
+   100K .......... .......... .......... .......... .......... 11% 79.0M 1s
+   150K .......... .......... .......... .......... .......... 15%  676K 1s
+   200K .......... .......... .......... .......... .......... 18%  121M 1s
+   250K .......... .......... .......... .......... .......... 22%  419M 1s
+   300K .......... .......... .......... .......... .......... 26%  353M 1s
+   350K .......... .......... .......... .......... .......... 30%  689K 1s
+   400K .......... .......... .......... .......... .......... 33%  143M 1s
+   450K .......... .......... .......... .......... .......... 37%  186M 0s
+   500K .......... .......... .......... .......... .......... 41%  378M 0s
+   550K .......... .......... .......... .......... .......... 45%  292M 0s
+   600K .......... .......... .......... .......... .......... 49%  566M 0s
+   650K .......... .......... .......... .......... .......... 52%  560M 0s
+   700K .......... .......... .......... .......... .......... 56%  474M 0s
+   750K .......... .......... .......... .......... .......... 60%  700K 0s
+   800K .......... .......... .......... .......... .......... 64%  386M 0s
+   850K .......... .......... .......... .......... .......... 67%  141M 0s
+   900K .......... .......... .......... .......... .......... 71%  161M 0s
+   950K .......... .......... .......... .......... .......... 75%  333M 0s
+  1000K .......... .......... .......... .......... .......... 79%  609M 0s
+  1050K .......... .......... .......... .......... .......... 83%  200M 0s
+  1100K .......... .......... .......... .......... .......... 86%  679K 0s
+  1150K .......... .......... .......... .......... .......... 90% 9.04M 0s
+  1200K .......... .......... .......... .......... .......... 94% 4.82M 0s
+  1250K .......... .......... .......... .......... .......... 98% 9.61M 0s
+  1300K .......... .......... ....                            100% 13.4M=0.5s
+
+2026-11-22 08:03:09 (2.81 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-179c6e003bd6bba7ed1ed7cc021dd639.png’ saved [1356740/1356740]
+
+--2026-11-22 08:03:09--  https://www.ackconsulting.fr/_next/static/chunks/8992-81e7cf99a9bcd3ab.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/8992-81e7cf99a9bcd3ab.js’
+
+     0K .......... ......                                       271M=0s
+
+2026-11-22 08:03:10 (271 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/8992-81e7cf99a9bcd3ab.js’ saved [16573]
+
+--2026-11-22 08:03:10--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/performance-commerciale/page-5443fcb106ae2a00.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/performance-commerciale/page-5443fcb106ae2a00.js’
+
+     0K                                                       100%  535M=0s
+
+2026-11-22 08:03:11 (535 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/performance-commerciale/page-5443fcb106ae2a00.js’ saved [152/152]
+
+--2026-11-22 08:03:11--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:11 ERROR 404: Not Found.
+
+--2026-11-22 08:03:12--  https://www.ackconsulting.fr/livret-accueil.pdf
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/pdf]
+Saving to: ‘snapshot/www.ackconsulting.fr/livret-accueil.pdf’
+
+     0K .......... .......... .......... .......... ..........  381K
+    50K .......... .......... .......... .......... ..........  123M
+   100K .......... .......... .......... .......... ..........  754K
+   150K .......... .......... .......... .......... ..........  327M
+   200K .......... .......... .......... .......... ..........  769K
+   250K .......... .......... .......... .......... .......... 90.8M
+   300K .......... .......... .......... .......... .......... 19.6M
+   350K .......... .......... .......... .......... ..........  196M
+   400K .......... .......... .......... .......... ..........  258M
+   450K .......... .......... .......... .......... ..........  260M
+   500K .......... .......... .......... .......... ..........  220M
+   550K .......... .......... .......... .......... ..........  307M
+   600K .......... .......... .......... .......... ..........  251M
+   650K .......... .......... .......... .......... ..........  320M
+   700K .......... .......... .......... .......... ..........  570M
+   750K .......... .......... .......... .......... .......... 3.29M
+   800K .......... .......... .......... .......... .......... 10.7M
+   850K .......... .......... .......... .......... .......... 2.72M
+   900K .......... .......... .......... .......... ..........  252M
+   950K .......... .......... .......... .......... ..........  180M
+  1000K .......... .......... .......... .......... ..........  460M
+  1050K .......... .......... .......... .......... .......... 2.04M
+  1100K .......... .......... .......... .......... ..........  204M
+  1150K .......... .......... .......... .......... ..........  330M
+  1200K .......... .......... .......... .......... .......... 32.6M
+  1250K .......... .......... .......... .......... ..........  319M
+  1300K .......... .......... .......... .......... ..........  407M
+  1350K .......... .......... .......... .......... ..........  254M
+  1400K .......... .......... .......... .......... ..........  305M
+  1450K .......... .......... .......... .......... ..........  596M
+  1500K .......... .......... .......... .......... ..........  527M
+  1550K .......... .......... .......... .......... .......... 4.66M
+  1600K .......... .......... .......... .......... .......... 67.0M
+  1650K .......... .......... .......... .......... .......... 37.2M
+  1700K .......... .......                                      466M=0.3s
+
+2026-11-22 08:03:13 (4.87 MB/s) - ‘snapshot/www.ackconsulting.fr/livret-accueil.pdf’ saved [1758837]
+
+--2026-11-22 08:03:13--  https://www.ackconsulting.fr/reglement-interieur.pdf
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/pdf]
+Saving to: ‘snapshot/www.ackconsulting.fr/reglement-interieur.pdf’
+
+     0K .......... .......... .......... .......... ..........  678K
+    50K .......... .......... .......... .......... ..........  673K
+   100K .......... .......... .......... .......... ..........  671K
+   150K .......... .......... .......... .......... .......... 39.0M
+   200K .......... .......... .......... .......... ..........  231M
+   250K .......... .......... .......... .......... ..........  235M
+   300K .......... .......... .......... .......... .......... 76.4M
+   350K .......... .......... .......... .......... ..........  364M
+   400K .......... .......... .......... .......... ..........  289M
+   450K .......... .......... .......... .......... ..........  617M
+   500K .......... .......... .......... .......... ..........  549M
+   550K .......... .......... .......... .......... ..........  699K
+   600K .......... ......                                       533M=0.3s
+
+2026-11-22 08:03:14 (2.03 MB/s) - ‘snapshot/www.ackconsulting.fr/reglement-interieur.pdf’ saved [631003]
+
+--2026-11-22 08:03:15--  https://www.ackconsulting.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1239 (1.2K) [application/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’
+
+     0K .                                                     100% 43.7M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-11-22 08:03:15 (43.7 MB/s) - ‘snapshot/www.ackconsulting.fr/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js’ saved [1239/1239]
+
+--2026-11-22 08:03:15--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/closing-demande-entrante/page-a6d50b7d702101e7.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/closing-demande-entrante/page-a6d50b7d702101e7.js’
+
+     0K                                                       100%  604M=0s
+
+2026-11-22 08:03:15 (604 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/closing-demande-entrante/page-a6d50b7d702101e7.js’ saved [152/152]
+
+--2026-11-22 08:03:16--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/management-commerciaux-sedentaires/page-7ca1a295bbcf0da2.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/management-commerciaux-sedentaires/page-7ca1a295bbcf0da2.js’
+
+     0K                                                       100%  516M=0s
+
+2026-11-22 08:03:16 (516 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/management-commerciaux-sedentaires/page-7ca1a295bbcf0da2.js’ saved [152/152]
+
+--2026-11-22 08:03:17--  https://www.ackconsulting.fr/_next/static/media/sintra-7f6e19fc1856448898a4cd5f30bdd80c.jpg
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58583 (57K) [image/jpeg]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-7f6e19fc1856448898a4cd5f30bdd80c.jpg’
+
+     0K .......... .......... .......... .......... .......... 87%  519K 0s
+    50K .......                                               100% 13.4T=0.1s
+
+2026-11-22 08:03:18 (594 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-7f6e19fc1856448898a4cd5f30bdd80c.jpg’ saved [58583/58583]
+
+--2026-11-22 08:03:18--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/organisation-commerciale-orientee-performance/page-55ef43778773f012.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/organisation-commerciale-orientee-performance/page-55ef43778773f012.js’
+
+     0K                                                       100%  537M=0s
+
+2026-11-22 08:03:19 (537 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/organisation-commerciale-orientee-performance/page-55ef43778773f012.js’ saved [152/152]
+
+--2026-11-22 08:03:19--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-stress/page-85c41f04827fc2f6.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-stress/page-85c41f04827fc2f6.js’
+
+     0K .....                                                   186M=0s
+
+2026-11-22 08:03:20 (186 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-stress/page-85c41f04827fc2f6.js’ saved [5576]
+
+--2026-11-22 08:03:20--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-conflits/page-79f734a4940622db.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-conflits/page-79f734a4940622db.js’
+
+     0K .....                                                   139M=0s
+
+2026-11-22 08:03:21 (139 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/gestion-conflits/page-79f734a4940622db.js’ saved [5576]
+
+--2026-11-22 08:03:21--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/prise-de-parole-en-public/page-e475b991a4468f5e.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/prise-de-parole-en-public/page-e475b991a4468f5e.js’
+
+     0K .....                                                   186M=0s
+
+2026-11-22 08:03:21 (186 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/prise-de-parole-en-public/page-e475b991a4468f5e.js’ saved [5576]
+
+--2026-11-22 08:03:22--  https://www.ackconsulting.fr/_next/static/media/sintra-8f09643188aa4a94cb6a66a9f4e75223.jpg
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 88463 (86K) [image/jpeg]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-8f09643188aa4a94cb6a66a9f4e75223.jpg’
+
+     0K .......... .......... .......... .......... .......... 57%  335K 0s
+    50K .......... .......... .......... ......               100%  107M=0.1s
+
+2026-11-22 08:03:22 (578 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-8f09643188aa4a94cb6a66a9f4e75223.jpg’ saved [88463/88463]
+
+--2026-11-22 08:03:23--  https://www.ackconsulting.fr/_next/static/chunks/app/traitement-leads/page-3f94f804b509dcee.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/traitement-leads/page-3f94f804b509dcee.js’
+
+     0K .....                                                   169M=0s
+
+2026-11-22 08:03:23 (169 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/traitement-leads/page-3f94f804b509dcee.js’ saved [5576]
+
+--2026-11-22 08:03:24--  https://www.ackconsulting.fr/_next/static/media/sintra-d4d503770c58503d009241ce707a8542.jpg
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 71777 (70K) [image/jpeg]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-d4d503770c58503d009241ce707a8542.jpg’
+
+     0K .......... .......... .......... .......... .......... 71%  635K 0s
+    50K .......... ..........                                 100%  548M=0.08s
+
+2026-11-22 08:03:24 (890 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-d4d503770c58503d009241ce707a8542.jpg’ saved [71777/71777]
+
+--2026-11-22 08:03:25--  https://www.ackconsulting.fr/_next/static/media/sintra-cb8adc77733aa3c08d78b3eda82230c7.jpg
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 63676 (62K) [image/jpeg]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-cb8adc77733aa3c08d78b3eda82230c7.jpg’
+
+     0K .......... .......... .......... .......... .......... 80%  598K 0s
+    50K .......... ..                                         100% 22.7T=0.08s
+
+2026-11-22 08:03:26 (744 KB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/media/sintra-cb8adc77733aa3c08d78b3eda82230c7.jpg’ saved [63676/63676]
+
+--2026-11-22 08:03:26--  https://www.ackconsulting.fr/_next/static/chunks/app/prestation-of/page-acb64a1e1f42a138.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/prestation-of/page-acb64a1e1f42a138.js’
+
+     0K .....                                                   143M=0s
+
+2026-11-22 08:03:27 (143 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/prestation-of/page-acb64a1e1f42a138.js’ saved [5576]
+
+--2026-11-22 08:03:27--  https://www.ackconsulting.fr/_next/static/chunks/app/devenir-partenaire/page-aec396aefa58c05e.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/devenir-partenaire/page-aec396aefa58c05e.js’
+
+     0K .......... .                                            356M=0s
+
+2026-11-22 08:03:27 (356 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/devenir-partenaire/page-aec396aefa58c05e.js’ saved [12023]
+
+--2026-11-22 08:03:28--  https://www.ackconsulting.fr/_next/static/chunks/app/faq/page-b5f5217ab48c78c9.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/faq/page-b5f5217ab48c78c9.js’
+
+     0K .......... .                                            389M=0s
+
+2026-11-22 08:03:28 (389 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/faq/page-b5f5217ab48c78c9.js’ saved [11313]
+
+--2026-11-22 08:03:29--  https://www.ackconsulting.fr/_next/static/chunks/app/formations/ia-performance-commerciale/page-9982d6f45ae64c36.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 152 [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/ia-performance-commerciale/page-9982d6f45ae64c36.js’
+
+     0K                                                       100%  578M=0s
+
+2026-11-22 08:03:29 (578 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/formations/ia-performance-commerciale/page-9982d6f45ae64c36.js’ saved [152/152]
+
+--2026-11-22 08:03:29--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-commerciale/page-fbdf4c605a556429.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-commerciale/page-fbdf4c605a556429.js’
+
+     0K .                                                      46.3M=0s
+
+2026-11-22 08:03:30 (46.3 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-commerciale/page-fbdf4c605a556429.js’ saved [1328]
+
+--2026-11-22 08:03:30--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/formation-prospection-commerciale/page-9bfad0667af89141.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/formation-prospection-commerciale/page-9bfad0667af89141.js’
+
+     0K .                                                      21.2M=0s
+
+2026-11-22 08:03:31 (21.2 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/formation-prospection-commerciale/page-9bfad0667af89141.js’ saved [1328]
+
+--2026-11-22 08:03:31--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/plan-action-commercial/page-23a4d4d75e589c67.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/plan-action-commercial/page-23a4d4d75e589c67.js’
+
+     0K .                                                      42.3M=0s
+
+2026-11-22 08:03:32 (42.3 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/plan-action-commercial/page-23a4d4d75e589c67.js’ saved [1328]
+
+--2026-11-22 08:03:32--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/tableau-de-bord-commercial/page-d79cc180dcd26af7.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/tableau-de-bord-commercial/page-d79cc180dcd26af7.js’
+
+     0K .                                                      37.3M=0s
+
+2026-11-22 08:03:32 (37.3 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/tableau-de-bord-commercial/page-d79cc180dcd26af7.js’ saved [1328]
+
+--2026-11-22 08:03:33--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/plan-de-prospection/page-103176c4dac83897.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/plan-de-prospection/page-103176c4dac83897.js’
+
+     0K .                                                      53.2M=0s
+
+2026-11-22 08:03:33 (53.2 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/plan-de-prospection/page-103176c4dac83897.js’ saved [1328]
+
+--2026-11-22 08:03:34--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/relance-commerciale/page-561acc5b14262b50.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/relance-commerciale/page-561acc5b14262b50.js’
+
+     0K .                                                      41.7M=0s
+
+2026-11-22 08:03:34 (41.7 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/relance-commerciale/page-561acc5b14262b50.js’ saved [1328]
+
+--2026-11-22 08:03:34--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-telephonique/page-480b3598c5c104d1.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-telephonique/page-480b3598c5c104d1.js’
+
+     0K .                                                      43.3M=0s
+
+2026-11-22 08:03:35 (43.3 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/prospection-telephonique/page-480b3598c5c104d1.js’ saved [1328]
+
+--2026-11-22 08:03:35--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/pipeline-commercial/page-207dc7d1061e73cf.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/pipeline-commercial/page-207dc7d1061e73cf.js’
+
+     0K .                                                      46.0M=0s
+
+2026-11-22 08:03:36 (46.0 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/pipeline-commercial/page-207dc7d1061e73cf.js’ saved [1328]
+
+--2026-11-22 08:03:36--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/techniques-de-closing/page-d2d7abf3e1278200.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/techniques-de-closing/page-d2d7abf3e1278200.js’
+
+     0K .                                                      44.5M=0s
+
+2026-11-22 08:03:37 (44.5 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/techniques-de-closing/page-d2d7abf3e1278200.js’ saved [1328]
+
+--2026-11-22 08:03:37--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/externalisation-commerciale/page-56856dabbe72224a.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/externalisation-commerciale/page-56856dabbe72224a.js’
+
+     0K .                                                      39.8M=0s
+
+2026-11-22 08:03:37 (39.8 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/externalisation-commerciale/page-56856dabbe72224a.js’ saved [1328]
+
+--2026-11-22 08:03:38--  https://www.ackconsulting.fr/_next/static/chunks/app/blog/audit-qualiopi/page-83e495b36d60a614.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/audit-qualiopi/page-83e495b36d60a614.js’
+
+     0K .                                                      33.0M=0s
+
+2026-11-22 08:03:38 (33.0 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/blog/audit-qualiopi/page-83e495b36d60a614.js’ saved [1328]
+
+--2026-11-22 08:03:39--  https://www.ackconsulting.fr/_next/static/chunks/app/accompagnement/page-d9b35ce53fab5306.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/accompagnement/page-d9b35ce53fab5306.js’
+
+     0K .....                                                   188M=0s
+
+2026-11-22 08:03:39 (188 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/accompagnement/page-d9b35ce53fab5306.js’ saved [5576]
+
+--2026-11-22 08:03:40--  https://www.ackconsulting.fr/sitemap.xml
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/xml]
+Saving to: ‘snapshot/www.ackconsulting.fr/sitemap.xml’
+
+     0K .......                                                 218M=0s
+
+2026-11-22 08:03:40 (218 MB/s) - ‘snapshot/www.ackconsulting.fr/sitemap.xml’ saved [8164]
+
+--2026-11-22 08:03:41--  https://www.ackconsulting.fr/robots.txt
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 74 [text/plain]
+Saving to: ‘snapshot/www.ackconsulting.fr/robots.txt’
+
+     0K                                                       100%  371M=0s
+
+2026-11-22 08:03:42 (371 MB/s) - ‘snapshot/www.ackconsulting.fr/robots.txt’ saved [74/74]
+
+--2026-11-22 08:03:42--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:42 ERROR 404: Not Found.
+
+--2026-11-22 08:03:42--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:42 ERROR 404: Not Found.
+
+--2026-11-22 08:03:43--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:43 ERROR 404: Not Found.
+
+--2026-11-22 08:03:44--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:44 ERROR 404: Not Found.
+
+--2026-11-22 08:03:44--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:44 ERROR 404: Not Found.
+
+--2026-11-22 08:03:45--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:45 ERROR 404: Not Found.
+
+--2026-11-22 08:03:46--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:46 ERROR 404: Not Found.
+
+--2026-11-22 08:03:46--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:46 ERROR 404: Not Found.
+
+--2026-11-22 08:03:47--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:47 ERROR 404: Not Found.
+
+--2026-11-22 08:03:47--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:47 ERROR 404: Not Found.
+
+--2026-11-22 08:03:48--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:48 ERROR 404: Not Found.
+
+--2026-11-22 08:03:48--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:48 ERROR 404: Not Found.
+
+--2026-11-22 08:03:49--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:49 ERROR 404: Not Found.
+
+--2026-11-22 08:03:49--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:49 ERROR 404: Not Found.
+
+--2026-11-22 08:03:50--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:50 ERROR 404: Not Found.
+
+--2026-11-22 08:03:50--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:51 ERROR 404: Not Found.
+
+--2026-11-22 08:03:51--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:51 ERROR 404: Not Found.
+
+--2026-11-22 08:03:52--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:52 ERROR 404: Not Found.
+
+--2026-11-22 08:03:52--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:52 ERROR 404: Not Found.
+
+--2026-11-22 08:03:53--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:53 ERROR 404: Not Found.
+
+--2026-11-22 08:03:53--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:53 ERROR 404: Not Found.
+
+--2026-11-22 08:03:54--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:54 ERROR 404: Not Found.
+
+--2026-11-22 08:03:54--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:54 ERROR 404: Not Found.
+
+--2026-11-22 08:03:54--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:54 ERROR 404: Not Found.
+
+--2026-11-22 08:03:55--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:55 ERROR 404: Not Found.
+
+--2026-11-22 08:03:56--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:56 ERROR 404: Not Found.
+
+--2026-11-22 08:03:56--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:56 ERROR 404: Not Found.
+
+--2026-11-22 08:03:56--  https://www.ackconsulting.fr/nos-modalites
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/nos-modalites.html’
+
+     0K .......... .......... .......... .......... .......... 1.10M
+    50K .......... .........                                    806K=0.07s
+
+2026-11-22 08:03:57 (1013 KB/s) - ‘snapshot/www.ackconsulting.fr/nos-modalites.html’ saved [71555]
+
+--2026-11-22 08:03:57--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:57 ERROR 404: Not Found.
+
+--2026-11-22 08:03:58--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:58 ERROR 404: Not Found.
+
+--2026-11-22 08:03:58--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:03:58 ERROR 404: Not Found.
+
+--2026-11-22 08:03:59--  https://www.ackconsulting.fr/mise-en-relation-commerciaux
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/mise-en-relation-commerciaux.html’
+
+     0K .......... .......... .......... .......... .......    1.03M=0.04s
+
+2026-11-22 08:03:59 (1.03 MB/s) - ‘snapshot/www.ackconsulting.fr/mise-en-relation-commerciaux.html’ saved [48164]
+
+--2026-11-22 08:04:00--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:00 ERROR 404: Not Found.
+
+--2026-11-22 08:04:00--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:00 ERROR 404: Not Found.
+
+--2026-11-22 08:04:01--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:01 ERROR 404: Not Found.
+
+--2026-11-22 08:04:01--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:01 ERROR 404: Not Found.
+
+--2026-11-22 08:04:02--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:02 ERROR 404: Not Found.
+
+--2026-11-22 08:04:02--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:02 ERROR 404: Not Found.
+
+--2026-11-22 08:04:03--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:03 ERROR 404: Not Found.
+
+--2026-11-22 08:04:03--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:03 ERROR 404: Not Found.
+
+--2026-11-22 08:04:04--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:04 ERROR 404: Not Found.
+
+--2026-11-22 08:04:04--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:04 ERROR 404: Not Found.
+
+--2026-11-22 08:04:05--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:05 ERROR 404: Not Found.
+
+--2026-11-22 08:04:05--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:05 ERROR 404: Not Found.
+
+--2026-11-22 08:04:06--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:06 ERROR 404: Not Found.
+
+--2026-11-22 08:04:07--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:07 ERROR 404: Not Found.
+
+--2026-11-22 08:04:07--  https://www.ackconsulting.fr/diagnostic
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/diagnostic.html’
+
+     0K .......... .......... .......... .                      726K=0.04s
+
+2026-11-22 08:04:08 (726 KB/s) - ‘snapshot/www.ackconsulting.fr/diagnostic.html’ saved [32149]
+
+--2026-11-22 08:04:08--  https://www.ackconsulting.fr/_next/static/chunks/app/diagnostic/page-d43fcd6e9f293ab7.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/diagnostic/page-d43fcd6e9f293ab7.js’
+
+     0K .......... ......                                       175M=0s
+
+2026-11-22 08:04:09 (175 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/diagnostic/page-d43fcd6e9f293ab7.js’ saved [16782]
+
+--2026-11-22 08:04:09--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:09 ERROR 404: Not Found.
+
+--2026-11-22 08:04:09--  https://www.ackconsulting.fr/sales-squad-diagnostic
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘snapshot/www.ackconsulting.fr/sales-squad-diagnostic.html’
+
+     0K .......... .......... .......... .                      452M=0s
+
+2026-11-22 08:04:10 (452 MB/s) - ‘snapshot/www.ackconsulting.fr/sales-squad-diagnostic.html’ saved [31835]
+
+--2026-11-22 08:04:10--  https://www.ackconsulting.fr/_next/static/chunks/app/sales-squad-diagnostic/page-d759b43eb3f6b31d.js
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/sales-squad-diagnostic/page-d759b43eb3f6b31d.js’
+
+     0K .......... .....                                        210M=0s
+
+2026-11-22 08:04:11 (210 MB/s) - ‘snapshot/www.ackconsulting.fr/_next/static/chunks/app/sales-squad-diagnostic/page-d759b43eb3f6b31d.js’ saved [15880]
+
+--2026-11-22 08:04:11--  https://www.ackconsulting.fr/cdn-cgi/l/email-protection
+Reusing existing connection to www.ackconsulting.fr:443.
+HTTP request sent, awaiting response... 404 Not Found
+2026-11-22 08:04:11 ERROR 404: Not Found.
+
+FINISHED --2026-11-22 08:04:11--
+Total wall clock time: 2m 16s
+Downloaded: 113 files, 14M in 5.1s (2.69 MB/s)
