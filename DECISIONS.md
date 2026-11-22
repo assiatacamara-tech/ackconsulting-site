@@ -18,5 +18,6 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Fenêtre « Nous contacter » : formulaire en version claire (titres et texte saisi en foncé sur fond blanc), comme sur Sintra. Une vérification bloque désormais tout texte blanc dans cette fenêtre.
 
 ## Points en attente de décision
-- Formulaires : aujourd'hui, seul /contact envoie dans Zoho ; tous les autres (y compris la newsletter) envoyaient chez Sintra. Sur le nouveau site, ils sont enregistrés par Netlify. Reste à décider : envoi de tous les formulaires dans Zoho.
+- Formulaires (décidé le 22/11/2026) : chaque demande est enregistrée par Netlify, puis envoyée dans Zoho (Prospects) via le formulaire web « Leads-ack-consulting-formulaire site ». En cas d'échec, nouvel essai automatique toutes les 15 minutes. Le détail complet de la demande est dans le champ Description.
+- Canal d'acquisition : seuls LinkedIn, Recommandation et Événement correspondent à un choix du formulaire Zoho ; les autres réponses (Google, IA, Malt…) figurent dans la Description.
 - Formulaire « Télécharger le PDF » (/diagnostic) : chez Sintra, le Diagnostic Express était envoyé automatiquement par e-mail. À recréer (Zoho).

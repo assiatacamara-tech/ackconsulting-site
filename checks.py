@@ -140,6 +140,9 @@ for path, s in all_pages.items():
         body = m.group(2) or m.group(4)
         fs = tuple(sorted(set(re.findall(r'\bname="([^"]+)"', body)) - {"form-name", "page", "bot-field"}))
         fields.setdefault(name, set()).add(fs)
+zoho_js = open(os.path.join(ROOT, "netlify", "functions", "zoho.mjs"), encoding="utf-8").read()
+for name in fields:
+    check(f'"{name}"' in zoho_js or f"\n  {name}:" in zoho_js, f"[formulaire {name}] non prévu dans l'envoi vers Zoho (netlify/functions/zoho.mjs)")
 for name, variants in fields.items():
     check(len(variants) == 1, f"[formulaire {name}] champs différents selon les pages : {variants}")
 
