@@ -25,7 +25,6 @@
 /nos-modalites
 /devenir-partenaire
 /nous-rejoindre
-/mise-en-relation-commerciaux
 /blog
 /blog/prospection-commerciale
 /blog/formation-prospection-commerciale
