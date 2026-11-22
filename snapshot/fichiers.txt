@@ -1,3 +1,8 @@
+snapshot/ackconsulting.sintra.site/_next/static/media/sintra-74454af550a3fb61ba227ab610003b56.png
+snapshot/ackconsulting.sintra.site/_next/static/media/sintra-7b1f0fb4951fe35dfc41fe4d84aa8cb7.png
+snapshot/ackconsulting.sintra.site/_next/static/media/sintra-7f6e19fc1856448898a4cd5f30bdd80c.jpg
+snapshot/ackconsulting.sintra.site/_next/static/media/sintra-94448d8efc2a5baa67bb5b645ed80890.png
+snapshot/ackconsulting.sintra.site/_next/static/media/sintra-f5c68adcbd4d84094f8de4170c541718.png
 snapshot/fichiers.txt
 snapshot/statuts.tsv
 snapshot/wget.log
@@ -61,6 +66,7 @@ snapshot/www.ackconsulting.fr/_next/static/media/sintra-94448d8efc2a5baa67bb5b64
 snapshot/www.ackconsulting.fr/_next/static/media/sintra-cb8adc77733aa3c08d78b3eda82230c7.jpg
 snapshot/www.ackconsulting.fr/_next/static/media/sintra-d4d503770c58503d009241ce707a8542.jpg
 snapshot/www.ackconsulting.fr/_next/static/media/sintra-e2c0ea0a6fac53b9f0effcc14d1eed81.png
+snapshot/www.ackconsulting.fr/_next/static/media/sintra-f5c68adcbd4d84094f8de4170c541718.png
 snapshot/www.ackconsulting.fr/_next/static/media/sintra-fd446e80d801100093a1c50c90d0a985.png
 snapshot/www.ackconsulting.fr/a-propos.html
 snapshot/www.ackconsulting.fr/a-propos/accessibilite-et-handicap.html
