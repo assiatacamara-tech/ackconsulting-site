@@ -1,0 +1,48 @@
+name: Copie du site actuel (Sintra)
+
+on:
+  push:
+    paths:
+      - "migration/urls.txt"
+      - ".github/workflows/snapshot.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Télécharger toutes les pages, images et fichiers
+        run: |
+          rm -rf snapshot && mkdir -p snapshot
+          wget --mirror --page-requisites --adjust-extension --span-hosts \
+               --domains=ackconsulting.fr,www.ackconsulting.fr,ackconsulting.sintra.site \
+               --restrict-file-names=nocontrol \
+               -e robots=off --wait=0.5 --random-wait --tries=3 \
+               --user-agent="Mozilla/5.0 (ACK migration snapshot)" \
+               -P snapshot -i migration/urls.txt \
+               -o snapshot/wget.log || true
+
+      - name: Relever le statut et les redirections de chaque adresse
+        run: |
+          echo -e "url\tstatut\tadresse_finale\tredirections" > snapshot/statuts.tsv
+          grep -v -e sitemap.xml -e robots.txt migration/urls.txt | while read -r u; do
+            curl -s -o /dev/null -L -w "${u}\t%{http_code}\t%{url_effective}\t%{num_redirects}\n" "$u" >> snapshot/statuts.tsv
+            # version sans www
+            nw="${u/www./}"
+            curl -s -o /dev/null -L -w "${nw}\t%{http_code}\t%{url_effective}\t%{num_redirects}\n" "$nw" >> snapshot/statuts.tsv
+          done
+          find snapshot -type f | sort > snapshot/fichiers.txt
+          du -sh snapshot
+
+      - name: Enregistrer la copie dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add snapshot
+          git commit -m "Copie du site Sintra au $(date -u +%Y-%m-%d)" || echo "Rien de nouveau"
+          git push
