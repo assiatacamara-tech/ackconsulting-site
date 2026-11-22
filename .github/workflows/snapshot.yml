@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "migration/urls.txt"
+      - "migration/assets.txt"
       - ".github/workflows/snapshot.yml"
   workflow_dispatch:
 
@@ -26,6 +27,10 @@ jobs:
                --user-agent="Mozilla/5.0 (ACK migration snapshot)" \
                -P snapshot -i migration/urls.txt \
                -o snapshot/wget.log || true
+
+      - name: Télécharger les images et documents restants
+        run: |
+          wget -x -nc -e robots=off --tries=3 -P snapshot -i migration/assets.txt -a snapshot/wget.log || true
 
       - name: Relever le statut et les redirections de chaque adresse
         run: |
