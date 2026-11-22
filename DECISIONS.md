@@ -34,3 +34,4 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - IONOS : renvoi IONOS de ackconsulting.fr désactivé (A 217.160.0.166, AAAA, TXT _dep_ws_mutex) ; A @ = 75.2.60.5 ; CNAME www = ackconsulting.netlify.app (avant : custom-sites.sintra.ai). MX, SPF, DKIM, DMARC, formation (Teachizy) inchangés.
 - Netlify : domaine ajouté (ackconsulting.fr + www). Domaine principal à passer sur www dès que le certificat HTTPS est émis (les balises canonical et le sitemap utilisent www).
 - Reste chez IONOS : TXT _cf-custom-hostname.www (ancien Sintra), à supprimer après validation.
+- 22/11/2026 : certificat HTTPS émis, www passé en domaine principal Netlify. Offre Netlify Personal souscrite par Assiata (9 $/mois) ; badge « Powered by Netlify » désactivé. Page 404 ajoutée (noindex). Sitemap https://www.ackconsulting.fr/sitemap.xml soumis dans Search Console (l'ancienne entrée « sitemap.xml. » avec un point final était en erreur).
