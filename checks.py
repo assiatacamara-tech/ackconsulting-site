@@ -102,6 +102,9 @@ for path, s in all_pages.items():
             continue
         check('data-netlify="true"' in form and re.search(r'name="[a-z-]+"', form), f"{where} formulaire non relié : {form[:100]}")
 
+    # 4a. Formulaire Zoho : aucun titre interne Zoho visible par les visiteurs
+    check("zcwf_title'" not in s and "Leads-ack" not in s, f"{where} titre interne du formulaire Zoho visible")
+
     # 4b. Fenêtre « Nous contacter » (fond blanc) : aucun titre ni champ écrit en blanc
     modal = re.search(r"data-contact-modal.*?</form>", s, re.S)
     if modal:
