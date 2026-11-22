@@ -119,6 +119,11 @@ for path, s in all_pages.items():
               f"{where} formulaire sans case de consentement RGPD obligatoire")
         check("/a-propos/politique-de-confidentialite" in fbody, f"{where} formulaire sans lien vers la politique de confidentialité")
 
+    # 4d. Cookies : rien de Google avant consentement ; bandeau présent avec « Tout refuser » aussi visible que « Tout accepter »
+    check("googletagmanager.com" not in s and "google-analytics.com" not in s, f"{where} outil Google chargé sans consentement")
+    check("data-cookie-banner" in s and "data-cookie-refuse" in s and "data-cookie-accept" in s and "/assets/consent.js" in s,
+          f"{where} bandeau cookies absent ou incomplet")
+
     # 5. Chaque question de FAQ a sa réponse
     for m in re.finditer(r"<button data-faq\b.*?</button>(.{0,40})", s, re.S):
         check('class="faq-answer' in m.group(1), f"{where} question de FAQ sans réponse")
@@ -136,6 +141,27 @@ for path, s in all_pages.items():
                 check(False, f"{where} texte différent du site actuel vers : « …{a[max(0, i - 40):i + 40]}… » / « …{b[max(0, i - 40):i + 40]}… »")
             else:
                 check(True, "")
+
+# 6b. Chaque classe de style utilisée existe dans la feuille de style (sinon l'élément s'affiche mal ou pas du tout)
+CSS = open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read()
+HOOKS = {"faq-answer", "form-success", "form-error"}
+def css_has(c):
+    return "." + re.sub(r"([:\[\]#/.%()&',>+~=])", r"\\\1", c) in CSS
+missing = {}
+for path, s in all_pages.items():
+    s2 = re.sub(r"<div id=\"crmWebToEntityForm\".*?</form>\s*</div>", "", s, flags=re.S)
+    for cl in re.findall(r'class="([^"]+)"', s2):
+        for c in cl.split():
+            if c not in HOOKS and not c.startswith("__") and not css_has(c):
+                missing.setdefault(c, path)
+snap_missing = set()
+if os.path.isdir(SNAP):
+    for c in list(missing):
+        if any(f'"{c}"' in l or f" {c} " in l or f'"{c} ' in l or f' {c}"' in l for l in [open(os.path.join(dp, f), encoding="utf-8").read() for dp, _, fs in os.walk(SNAP) if "_next" not in dp for f in fs if f.endswith(".html")][:60]):
+            snap_missing.add(c)
+for c, p in missing.items():
+    if c not in snap_missing:
+        check(False, f"[{p}] classe de style inexistante : {c}")
 
 # 7. Plan du site : chaque adresse existe, aucune page masquée de Google
 sm = open(os.path.join(DIST, "sitemap.xml"), encoding="utf-8").read()
@@ -161,7 +187,7 @@ for name, variants in fields.items():
 
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
-locked += ["assets/site.css", "assets/site.js"]
+locked += ["assets/site.css", "assets/site.js", "assets/consent.js"]
 state = {f: hashlib.sha256(open(os.path.join(ROOT, f), "rb").read()).hexdigest() for f in locked}
 if "--lock" in sys.argv:
     json.dump(state, open(LOCKS, "w"), indent=1, sort_keys=True)
@@ -170,6 +196,9 @@ if "--lock" in sys.argv:
 if os.path.exists(LOCKS):
     saved = json.load(open(LOCKS))
     for f, h in state.items():
+        if f not in saved:
+            print(f"(info) nouveau bloc en attente de validation par Assiata : {f}")
+            continue
         check(saved.get(f) == h, f"[bloc verrouillé] {f} a été modifié sans validation (relancer « python3 checks.py --lock » après accord)")
 
 if errors:

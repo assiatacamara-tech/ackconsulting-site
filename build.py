@@ -97,7 +97,8 @@ def page_html(meta, body, blocks):
         + header
         + f'\n<main class="{H.escape(meta["main_class"])}">\n{body}\n</main>\n'
         + footer
-        + '\n<script src="/assets/site.js" defer></script>\n</body>\n</html>\n'
+        + "\n" + blocks["cookie-banner"]
+        + '\n<script src="/assets/site.js" defer></script>\n<script src="/assets/consent.js" defer></script>\n</body>\n</html>\n'
     )
 
 
@@ -111,7 +112,7 @@ def build():
     for k, v in menus().items():
         header = header.replace("{{" + k + "}}", v)
     header = header.replace("{{CONTACT_FORM}}", light_form(partial("contact-form.html")))
-    blocks = {"header": header}
+    blocks = {"header": header, "cookie-banner": partial("cookie-banner.html")}
     for f in os.listdir(os.path.join(SRC, "partials")):
         if f.startswith("footer-"):
             blocks[f[:-5]] = partial(f).replace("{{ANNEE}}", year)
