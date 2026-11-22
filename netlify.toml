@@ -1,0 +1,16 @@
+[build]
+  command = "python3 build.py && python3 checks.py"
+  publish = "dist"
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+[build.processing.html]
+  pretty_urls = true
+
+# Les anciennes adresses sans « www » sont redirigées par Netlify (domaine principal : www.ackconsulting.fr)
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
