@@ -39,17 +39,17 @@ def menus():
     e = H.escape
     return {
         "PRESTATIONS_DESKTOP": "".join(
-            f'<a href="{h}"{ext(h)} class="flex items-start gap-3 px-5 py-4 hover:bg-[#f8faf9] transition-colors group">'
-            f'<span class="text-xl shrink-0 mt-0.5">{i}</span><div><p class="font-semibold text-sm text-[#090a0a] group-hover:text-[#1a6b5a] transition-colors">{e(l)}</p>'
+            f'<a href="{h}"{ext(h)} class="flex items-start gap-3 px-5 py-4 hover:bg-[#f6f6f8] transition-colors group">'
+            f'<span class="text-xl shrink-0 mt-0.5">{i}</span><div><p class="font-semibold text-sm text-[#1a1a1a] group-hover:text-[#1e8482] transition-colors">{e(l)}</p>'
             f'<p class="text-xs text-gray-500 mt-0.5">{e(d)}</p></div></a>' for l, h, d, i in PRESTATIONS),
         "PRESTATIONS_MOBILE": "".join(
-            f'<a href="{h}"{ext(h)} class="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-[#f8faf9] transition-colors"><span>{i}</span><span>{e(l)}</span></a>'
+            f'<a href="{h}"{ext(h)} class="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-[#f6f6f8] transition-colors"><span>{i}</span><span>{e(l)}</span></a>'
             for l, h, d, i in PRESTATIONS),
         "APROPOS_DESKTOP": "".join(
-            f'<a href="{h}" class="flex items-center gap-3 px-5 py-4 hover:bg-[#f8faf9] transition-colors group"><span class="text-xl shrink-0">{i}</span>'
-            f'<p class="font-semibold text-sm text-[#090a0a] group-hover:text-[#1a6b5a] transition-colors">{e(l)}</p></a>' for l, h, i in APROPOS),
+            f'<a href="{h}" class="flex items-center gap-3 px-5 py-4 hover:bg-[#f6f6f8] transition-colors group"><span class="text-xl shrink-0">{i}</span>'
+            f'<p class="font-semibold text-sm text-[#1a1a1a] group-hover:text-[#1e8482] transition-colors">{e(l)}</p></a>' for l, h, i in APROPOS),
         "APROPOS_MOBILE": "".join(
-            f'<a href="{h}" class="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-[#f8faf9] transition-colors"><span>{i}</span><span>{e(l)}</span></a>'
+            f'<a href="{h}" class="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm text-gray-700 hover:bg-[#f6f6f8] transition-colors"><span>{i}</span><span>{e(l)}</span></a>'
             for l, h, i in APROPOS),
     }
 
@@ -94,7 +94,7 @@ def page_html(meta, body, blocks):
     footer = blocks.get("footer-" + meta["footer"], "")
     return (
         '<!DOCTYPE html>\n<html lang="fr" class="__variable_d8ebd1 __variable_fab2aa">\n<head>\n' + "\n".join(head) + "\n</head>\n"
-        '<body class="__className_d8ebd1 text-[#090a0a] bg-white antialiased">\n'
+        '<body class="__className_d8ebd1 text-[#1a1a1a] bg-white antialiased">\n'
         + header
         + f'\n<main class="{H.escape(meta["main_class"])}">\n{body}\n</main>\n'
         + footer
