@@ -54,6 +54,13 @@ def menus():
     }
 
 
+def light_form(form):
+    """Le formulaire de contact est conçu pour un fond sombre ; dans la fenêtre « Nous contacter » (fond blanc), on le passe en version claire."""
+    return (form.replace("text-white/80", "text-gray-700")
+                .replace("bg-white/10 border border-white/20", "bg-white border-2 border-gray-200")
+                .replace("rounded-xl text-white ", "rounded-xl text-gray-900 "))
+
+
 def read(p):
     return open(p, encoding="utf-8").read()
 
@@ -103,7 +110,7 @@ def build():
     header = partial("header.html")
     for k, v in menus().items():
         header = header.replace("{{" + k + "}}", v)
-    header = header.replace("{{CONTACT_FORM}}", partial("contact-form.html"))
+    header = header.replace("{{CONTACT_FORM}}", light_form(partial("contact-form.html")))
     blocks = {"header": header}
     for f in os.listdir(os.path.join(SRC, "partials")):
         if f.startswith("footer-"):

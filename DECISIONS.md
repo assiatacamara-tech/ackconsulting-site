@@ -15,6 +15,8 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - L'image de partage sur les réseaux sociaux est hébergée sur www.ackconsulting.fr.
 - Les réponses des FAQ sont présentes dans le code de la page (avant : chargées au clic seulement), ce qui permet à Google de les lire.
 
+- Fenêtre « Nous contacter » : formulaire en version claire (titres et texte saisi en foncé sur fond blanc), comme sur Sintra. Une vérification bloque désormais tout texte blanc dans cette fenêtre.
+
 ## Points en attente de décision
 - Formulaires : aujourd'hui, seul /contact envoie dans Zoho ; tous les autres (y compris la newsletter) envoyaient chez Sintra. Sur le nouveau site, ils sont enregistrés par Netlify. Reste à décider : envoi de tous les formulaires dans Zoho.
 - Formulaire « Télécharger le PDF » (/diagnostic) : chez Sintra, le Diagnostic Express était envoyé automatiquement par e-mail. À recréer (Zoho).

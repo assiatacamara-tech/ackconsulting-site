@@ -102,6 +102,12 @@ for path, s in all_pages.items():
             continue
         check('data-netlify="true"' in form and re.search(r'name="[a-z-]+"', form), f"{where} formulaire non relié : {form[:100]}")
 
+    # 4b. Fenêtre « Nous contacter » (fond blanc) : aucun titre ni champ écrit en blanc
+    modal = re.search(r"data-contact-modal.*?</form>", s, re.S)
+    if modal:
+        for tag in re.findall(r"<(?:label|input|textarea|select)\b[^>]*>", modal.group(0)):
+            check(not re.search(r'class="[^"]*\btext-white\b', tag), f"{where} texte blanc invisible dans la fenêtre Nous contacter : {tag[:90]}")
+
     # 5. Chaque question de FAQ a sa réponse
     for m in re.finditer(r"<button data-faq\b.*?</button>(.{0,40})", s, re.S):
         check('class="faq-answer' in m.group(1), f"{where} question de FAQ sans réponse")
