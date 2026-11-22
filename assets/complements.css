@@ -1,0 +1,6 @@
+.ack-etapes--5 { grid-template-columns: repeat(5, 1fr); }
+.ack-etapes--blocs .ack-etape b { font-size: 15px; letter-spacing: .04em; text-transform: uppercase; }
+.ack-offres__autres { margin-top: 28px; text-align: center; font-size: 15px; color: var(--ack-texte); }
+.ack-offres__autres .ack-lien { margin: 0 4px; }
+@media (max-width: 1024px) { .ack-etapes--5 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .ack-etapes--5 { grid-template-columns: 1fr; } }

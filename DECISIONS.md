@@ -46,3 +46,12 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - /mise-en-relation-commerciaux retirée de Google (noindex) et du plan du site : la recherche « commercial freelance » revient à acksalesmatch.fr (décision 7). Le lien du menu reste.
 - Clics vers Calendly (« Réserver un appel ») comptés dans Google Analytics (événement « reservation_appel »), uniquement après accord du visiteur (nouveau script assets/suivi.js, blocs verrouillés inchangés).
 - Zéro Lead Perdu : « La structuration commerciale B2B » ajouté sous « Zéro Lead Perdu » dans le titre principal (H1), validé par Assiata le 22/11/2026. Lot 1 validé par Assiata le 22/11/2026.
+
+## 22/11/2026 — Lot 4 : positionnement direction commerciale opérationnelle (brief correctif, décisions d'Assiata)
+- Voix : « nous » partout (hors blog). Accueil : titre et accroche validés conservés.
+- Pas de mot « recrutement » pour ACK : « constitution et intégration de l'équipe », « embaucher » à la place de « recruter ».
+- Management et pilotage commercial : section de la page Directrice commerciale externalisée (ancre #management), pas une page séparée.
+- Chiffres : « 0 → 2 M€ » et « 0 → 1 M€ » sont deux expériences différentes, précisées « dans une entreprise précédente » ; 130 % précisé « en entreprise ».
+- Offres de second plan : offre spéciale organismes de formation, ACK Sales Squad, traitement de leads (fin du menu Prestations, ligne sous les offres de l'accueil).
+- Boutons de prise de rendez-vous unifiés : « Échanger sur mon besoin commercial » ; « Demander un devis » conservé pour les formations et les propositions. En-tête et pieds de page (blocs verrouillés) : à aligner après validation.
+- Accueil : section « Ce que nous prenons en charge » (Structurer, Construire, Manager, Piloter) et méthode en 5 étapes. À propos : activité actuelle distinguée de l'expérience passée.

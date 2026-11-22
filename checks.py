@@ -155,7 +155,7 @@ for path, s in all_pages.items():
                 check(True, "")
 
 # 6b. Chaque classe de style utilisée existe dans la feuille de style (sinon l'élément s'affiche mal ou pas du tout)
-CSS = open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read() + open(os.path.join(ROOT, "assets", "ack.css"), encoding="utf-8").read()
+CSS = open(os.path.join(ROOT, "assets", "site.css"), encoding="utf-8").read() + open(os.path.join(ROOT, "assets", "ack.css"), encoding="utf-8").read() + open(os.path.join(ROOT, "assets", "complements.css"), encoding="utf-8").read()
 HOOKS = {"faq-answer", "form-success", "form-error"}
 def css_has(c):
     return "." + re.sub(r"([:\[\]#/.%()&',>+~=])", r"\\\1", c) in CSS

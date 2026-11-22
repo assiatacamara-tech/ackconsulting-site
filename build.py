@@ -16,13 +16,13 @@ SITE_URL = "https://www.ackconsulting.fr"
 
 # Menus (repris du site Sintra)
 PRESTATIONS = [
-    ("Directrice commerciale externalisée", "/directrice-commerciale-externalisee", "À temps partagé", "📋"),
+    ("Directrice commerciale externalisée", "/directrice-commerciale-externalisee", "Direction, management et pilotage, à temps partagé", "📋"),
     ("Manager de transition commercial", "/manager-de-transition-commercial", "En urgence", "⚡"),
-    ("Structuration commerciale – Zéro Lead Perdu", "/zero-lead-perdu", "Performance commerciale", "🎯"),
-    ("Traitement de leads", "/traitement-leads", "Partiel ou total", "📥"),
+    ("Structuration commerciale – Zéro Lead Perdu", "/zero-lead-perdu", "Process, pipeline et KPI", "🎯"),
     ("Coaching commercial & manager", "/coaching", "Commercial & managérial", "🏋️"),
     ("Offre spéciale organismes de formation", "/prestation-of", "Pour les organismes de formation", "🎓"),
     ("ACK Sales Squad", "/ack-sales-squad", "Force commerciale externalisée", "🚀"),
+    ("Traitement de leads", "/traitement-leads", "Partiel ou total", "📥"),
     ("ACK Sales Match", "https://www.acksalesmatch.fr", "Trouver un commercial freelance", "🤝"),
 ]
 APROPOS = [
@@ -88,6 +88,7 @@ def page_html(meta, body, blocks):
         '<link rel="apple-touch-icon" href="/assets/img/img-74454af550a3fb61ba227ab610003b56.png"/>',
         '<link rel="stylesheet" href="/assets/site.css"/>',
         '<link rel="stylesheet" href="/assets/ack.css"/>',
+        '<link rel="stylesheet" href="/assets/complements.css"/>',
     ]
     head += [f'<script type="application/ld+json">{j}</script>' for j in meta.get("jsonld", [])]
     header = blocks["header"] if meta["header"] else ""
