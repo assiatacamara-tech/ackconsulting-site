@@ -45,3 +45,4 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Titres Google de plus de 65 caractères raccourcis (11 pages) et descriptions de plus de 175 caractères raccourcies (10 pages), sans changer les informations (prix, durées, Qualiopi, OPCO). Vérifications ajoutées.
 - /mise-en-relation-commerciaux retirée de Google (noindex) et du plan du site : la recherche « commercial freelance » revient à acksalesmatch.fr (décision 7). Le lien du menu reste.
 - Clics vers Calendly (« Réserver un appel ») comptés dans Google Analytics (événement « reservation_appel »), uniquement après accord du visiteur (nouveau script assets/suivi.js, blocs verrouillés inchangés).
+- Zéro Lead Perdu : « La structuration commerciale B2B » ajouté sous « Zéro Lead Perdu » dans le titre principal (H1), validé par Assiata le 22/11/2026. Lot 1 validé par Assiata le 22/11/2026.
