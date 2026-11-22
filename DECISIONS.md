@@ -48,7 +48,7 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Zéro Lead Perdu : « La structuration commerciale B2B » ajouté sous « Zéro Lead Perdu » dans le titre principal (H1), validé par Assiata le 22/11/2026. Lot 1 validé par Assiata le 22/11/2026.
 
 ## 22/11/2026 — Lot 4 : positionnement direction commerciale opérationnelle (brief correctif, décisions d'Assiata)
-- Voix : « nous » partout (hors blog). Accueil : titre et accroche validés conservés.
+- Voix : « nous » partout (hors blog). Accueil : titre principal (H1) remplacé par « Votre développement commercial mérite un véritable pilotage. » (demande d'Assiata) ; accroche validée conservée ; le titre Google garde « Formation & conseil commercial B2B ».
 - Pas de mot « recrutement » pour ACK : « constitution et intégration de l'équipe », « embaucher » à la place de « recruter ».
 - Management et pilotage commercial : section de la page Directrice commerciale externalisée (ancre #management), pas une page séparée.
 - Chiffres : « 0 → 2 M€ » et « 0 → 1 M€ » sont deux expériences différentes, précisées « dans une entreprise précédente » ; 130 % précisé « en entreprise ».
