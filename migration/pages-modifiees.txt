@@ -39,3 +39,5 @@
 /blog/tableau-de-bord-commercial
 /blog/techniques-de-closing
 /formations/prospection-commerciale
+/a-propos/conditions-generales-de-ventes
+/a-propos/accessibilite-et-handicap
