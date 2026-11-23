@@ -267,3 +267,8 @@ if errors:
     sys.exit(1)
 print(f"OK : {count} vérifications réussies.")
 
+
+# 14. Retours à la ligne masqués sur mobile : un espace doit séparer les mots, sinon ils se collent sur téléphone
+for path, page in all_pages.items():
+    for m in re.findall(r'[^\s>]<br class="hidden[^"]*"\s*/?>[^\s<]', page):
+        check(False, f"[{path}] mots collés sur mobile autour d'un retour à la ligne masqué : {m}")
