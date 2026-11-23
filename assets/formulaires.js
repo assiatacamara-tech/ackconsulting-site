@@ -2,7 +2,7 @@
   var P = window.ACK_PROGRAMMES || {};
   var params = new URLSearchParams(window.location.search);
   if (params.get("envoye") === "1") {
-    var f = document.querySelector("form[data-netlify]");
+    var f = document.querySelector('form[action*="envoye=1"]');
     if (f) {
       f.classList.add("hidden");
       var ok = f.parentNode.querySelector('[data-success="' + f.getAttribute("name") + '"]');
