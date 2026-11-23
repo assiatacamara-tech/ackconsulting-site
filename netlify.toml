@@ -41,3 +41,25 @@
   to = "/catalogue-formations"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/catalogue-prestations"
+  to = "/assets/docs/catalogue-prestations.pdf"
+  status = 200
+
+[[redirects]]
+  from = "/presentation"
+  to = "/assets/docs/presentation-ack-consulting.pdf"
+  status = 200
+
+[[redirects]]
+  from = "/documents/ACK_Catalogue_Prestations.pdf"
+  to = "/catalogue-prestations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/documents/ACK_Presentation_Generale_Slides.pdf"
+  to = "/presentation"
+  status = 301
+  force = true
