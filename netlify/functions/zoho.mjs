@@ -58,7 +58,7 @@ export function toZohoFields(formName, data) {
   const lines = [`[SITE WEB] ${FORM_LABELS[formName] || formName} — reçu le ${new Date().toLocaleString("fr-FR", { timeZone: "Europe/Paris" })}`];
   for (const [k, v] of Object.entries(d)) {
     if (!v || ["form-name", "bot-field", "ip", "user_agent", "referrer"].includes(k)) continue;
-    lines.push(`${FIELD_LABELS[k] || k} : ${Array.isArray(v) ? v.join(", ") : v}`);
+    lines.push(`${FIELD_LABELS[k] || k} : ${Array.isArray(v) ? [...new Set(v)].join(", ") : v}`);
   }
 
   const fields = {

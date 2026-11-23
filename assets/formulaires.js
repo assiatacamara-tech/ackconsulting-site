@@ -1,5 +1,17 @@
 (function () {
   var P = window.ACK_PROGRAMMES || {};
+  var params = new URLSearchParams(window.location.search);
+  if (params.get("envoye") === "1") {
+    var f = document.querySelector("form[data-netlify]");
+    if (f) {
+      f.classList.add("hidden");
+      var ok = f.parentNode.querySelector('[data-success="' + f.getAttribute("name") + '"]');
+      if (ok) ok.classList.remove("hidden");
+    }
+    var t = document.querySelector("[data-prog-titre]");
+    if (t) t.textContent = "demandé";
+    return;
+  }
   var cle = new URLSearchParams(window.location.search).get("formation") || "";
   var prog = P[cle];
   var parNom = {};

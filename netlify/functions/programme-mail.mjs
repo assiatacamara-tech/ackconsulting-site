@@ -21,16 +21,17 @@ export const PROGRAMMES = {
 
 export async function envoyerProgramme(data) {
   const d = data || {};
-  const titre = (d.formation || d.programme_choisi || "").trim();
+  const un = (v) => String(Array.isArray(v) ? v[0] || "" : v || "").trim();
+  const titre = PROGRAMMES[un(d.programme_choisi)] ? un(d.programme_choisi) : un(d.formation);
   const lien = PROGRAMMES[titre];
-  const email = (d.email || "").trim();
+  const email = un(d.email);
   if (!lien) throw new Error(`programme inconnu : ${titre}`);
   if (!email) throw new Error("e-mail manquant");
   if (!MAIL_URL || !MAIL_TOKEN) throw new Error("envoi par e-mail non configuré");
   const res = await fetch(MAIL_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ token: MAIL_TOKEN, email, prenom: (d.prenom || "").trim(), titre, lien }),
+    body: JSON.stringify({ token: MAIL_TOKEN, email, prenom: un(d.prenom), titre, lien }),
   });
   const txt = await res.text();
   if (!res.ok || !txt.includes("ok")) throw new Error(`envoi refusé : ${res.status} ${txt.slice(0, 120)}`);
