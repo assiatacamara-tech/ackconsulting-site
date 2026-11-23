@@ -75,5 +75,5 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Page Formations : section sur mesure remontée juste après le haut de page, sur fond dégradé de la charte ; catalogue sur fond bleu clair, cartes avec bandeau coloré.
 - Chaque page formation : barre colorée après le haut de page (Télécharger le programme, Demander un devis, Prendre rendez-vous).
 - « Demander un devis » ouvre le formulaire /demande-de-devis (formation pré-remplie) ; la prise de rendez-vous reste proposée à côté.
-- « Télécharger le programme » ouvre /telecharger-programme : le PDF (dossier Drive « Programmes – envoi automatique ») s'ouvre après envoi du formulaire. Page non indexée par Google.
+- « Télécharger le programme » ouvre /telecharger-programme : le programme part uniquement par e-mail à l'adresse saisie (script Google « ACK – Envoi des programmes de formation » sur le compte d'Assiata, appelé par netlify/functions/programme-mail.mjs ; adresse et jeton dans les variables Netlify PROGRAMME_MAIL_URL et PROGRAMME_MAIL_TOKEN ; nouvel essai toutes les 15 min pendant 24 h). Aucun lien Drive sur le site (vérification ajoutée). Page non indexée par Google.
 - Les deux formulaires arrivent dans Zoho (Prospects), comme les autres formulaires du site.

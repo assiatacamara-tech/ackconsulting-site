@@ -249,9 +249,14 @@ if os.path.exists(LOCKS):
             continue
         check(saved.get(f) == h, f"[bloc verrouillé] {f} a été modifié sans validation (relancer « python3 checks.py --lock » après accord)")
 
+# 12. Programmes de formation : le lien du PDF n'apparaît jamais sur le site (envoyé uniquement par e-mail)
+for path, page in all_pages.items():
+    check("drive.google.com" not in page, f"[{path}] lien Drive visible sur le site (les programmes partent uniquement par e-mail)")
+
 if errors:
     print(f"ÉCHEC : {len(errors)} vérification(s) en échec sur {count}. Mise en ligne bloquée.\n")
     for e in errors:
         print(" -", e)
     sys.exit(1)
 print(f"OK : {count} vérifications réussies.")
+

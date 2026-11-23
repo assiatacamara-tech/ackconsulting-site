@@ -3,6 +3,7 @@
 // En cas d'échec, elle est mise de côté et renvoyée toutes les 15 minutes (zoho-retry.mjs).
 import { getStore } from "@netlify/blobs";
 import { sendToZoho } from "./zoho.mjs";
+import { envoyerProgramme } from "./programme-mail.mjs";
 
 export default async (req) => {
   const { payload } = await req.json();
@@ -14,6 +15,15 @@ export default async (req) => {
   } catch (err) {
     console.error(`Zoho indisponible pour ${payload.id} : ${err.message}. Nouvel essai dans 15 minutes.`);
     await getStore("zoho-en-attente").setJSON(payload.id, { formName, data, essais: 1, depuis: new Date().toISOString() });
+  }
+  if (formName === "programme") {
+    try {
+      await envoyerProgramme(data);
+      console.log(`Programme envoyé par e-mail pour ${payload.id}`);
+    } catch (err) {
+      console.error(`Programme non envoyé pour ${payload.id} : ${err.message}. Nouvel essai dans 15 minutes.`);
+      await getStore("programme-en-attente").setJSON(payload.id, { data, essais: 1, depuis: new Date().toISOString() });
+    }
   }
   return new Response("ok");
 };

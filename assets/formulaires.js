@@ -14,19 +14,17 @@
   function majProgramme() {
     var k = parNom[choix.value];
     if (cache) cache.value = choix.value;
-    var lien = document.querySelector("[data-prog-lien]");
     var titre = document.querySelector("[data-prog-titre]");
     var dv = document.querySelector("[data-prog-devis]");
-    if (k && P[k][1]) {
-      if (lien) lien.href = P[k][1];
+    if (k) {
       if (titre) titre.textContent = P[k][0];
       if (dv) dv.href = "/demande-de-devis?formation=" + k;
     }
   }
-  if (prog && prog[1]) {
+  if (prog) {
     choix.value = prog[0];
     var h = document.querySelector("[data-prog-hero]");
-    if (h) h.textContent = prog[0] + " : objectifs, contenu, durée, tarif et modalités d'évaluation.";
+    if (h) h.textContent = prog[0] + " : objectifs, contenu, durée, tarif et modalités d'évaluation, envoyé à votre adresse e-mail.";
   }
   choix.addEventListener("change", majProgramme);
   majProgramme();
