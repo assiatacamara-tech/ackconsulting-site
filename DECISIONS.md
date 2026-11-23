@@ -82,3 +82,7 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - 23/11/2026 : ancien lien Sintra /documents/ACK_Catalogue_Formations.pdf redirigé (301) vers /catalogue-formations. À faire à réception des PDF : /documents/ACK_Catalogue_Prestations.pdf → /catalogue-prestations et /documents/ACK_Presentation_Generale_Slides.pdf → /presentation.
 - 23/11/2026 : catalogue Prestations et Présentation générale (exports d'Assiata, versions de novembre au « nous ») en ligne à /catalogue-prestations et /presentation ; anciens liens /documents/ACK_Catalogue_Prestations.pdf et /documents/ACK_Presentation_Generale_Slides.pdf redirigés (301).
 - 23/11/2026 : catalogue formations demandable sur le site (bouton sur /formations → /telecharger-programme?formation=catalogue), envoyé par e-mail comme les programmes (lien /catalogue-formations ; script Google mis à jour).
+
+## Lot 7 — Diagnostic commercial sur la page d'accueil (23/11/2026)
+- Bloc « Votre machine commerciale est-elle prête à grandir ? » ajouté en bas de la page d'accueil, avant l'appel final, vers le formulaire Tally LDZ0pj (?source=site-accueil).
+- Le résultat s'affiche à l'écran à la fin du questionnaire ; pas d'envoi par e-mail (choix d'Assiata : l'e-mail automatique Tally demande Tally Pro).
