@@ -35,3 +35,9 @@
   from = "/catalogue-formations"
   to = "/assets/docs/catalogue-formations.pdf"
   status = 200
+
+[[redirects]]
+  from = "/documents/ACK_Catalogue_Formations.pdf"
+  to = "/catalogue-formations"
+  status = 301
+  force = true
