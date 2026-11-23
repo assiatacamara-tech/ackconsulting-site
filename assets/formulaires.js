@@ -36,7 +36,7 @@
   if (prog) {
     choix.value = prog[0];
     var h = document.querySelector("[data-prog-hero]");
-    if (h) h.textContent = prog[0] + " : objectifs, contenu, durée, tarif et modalités d'évaluation, envoyé à votre adresse e-mail.";
+    if (h) h.textContent = cle === "catalogue" ? "Toutes nos formations, leurs durées et leurs tarifs, envoyés à votre adresse e-mail." : prog[0] + " : objectifs, contenu, durée, tarif et modalités d'évaluation, envoyé à votre adresse e-mail.";
   }
   choix.addEventListener("change", majProgramme);
   majProgramme();
