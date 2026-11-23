@@ -57,7 +57,7 @@
   });
 
   // Formulaires : enregistrés par Netlify, puis confirmation à l'écran
-  $$("form[data-netlify]").forEach(function (form) {
+  $$("form[data-form]").forEach(function (form) {
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       var id = form.getAttribute("name");

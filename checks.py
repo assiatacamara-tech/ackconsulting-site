@@ -253,6 +253,13 @@ if os.path.exists(LOCKS):
 for path, page in all_pages.items():
     check("drive.google.com" not in page, f"[{path}] lien Drive visible sur le site (les programmes partent uniquement par e-mail)")
 
+# 13. Formulaires : Netlify retire « data-netlify » à la mise en ligne ; le script doit viser « data-form »
+SITEJS = open(os.path.join(ROOT, "assets", "site.js"), encoding="utf-8").read()
+check("form[data-netlify]" not in SITEJS, "[site.js] les formulaires sont repérés par data-netlify, retiré par Netlify à la mise en ligne (page « Thank you » en anglais)")
+for path, page in all_pages.items():
+    for fm in re.findall(r"<form\b[^>]*data-netlify=\"true\"[^>]*>", page):
+        check("data-form=" in fm, f"[{path}] formulaire sans data-form : {fm[:80]}")
+
 if errors:
     print(f"ÉCHEC : {len(errors)} vérification(s) en échec sur {count}. Mise en ligne bloquée.\n")
     for e in errors:
