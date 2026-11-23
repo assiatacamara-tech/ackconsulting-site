@@ -30,3 +30,8 @@
   to = "/formations/prospection-commerciale"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/catalogue-formations"
+  to = "/assets/docs/catalogue-formations.pdf"
+  status = 200
