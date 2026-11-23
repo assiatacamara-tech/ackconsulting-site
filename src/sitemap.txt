@@ -10,7 +10,6 @@
 /rejoindre-academie-ack
 /formations
 /formations/closing-demande-entrante
-/formations/performance-commerciale
 /formations/management-commerciaux-sedentaires
 /formations/organisation-commerciale-orientee-performance
 /formations/ia-performance-commerciale
