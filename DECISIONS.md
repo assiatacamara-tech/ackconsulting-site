@@ -69,3 +69,11 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Prise de parole en public et Gestion des conflits : section « Aussi en présentiel » (7 h, intra, jusqu'à 10 participants, dès 1 200 € la journée, frais de déplacement en sus).
 - FAQ : liste des 8 formations, formats et durées à jour (formules Déclic / Accélération / Impact retirées). Accessibilité : numéro 07 80 71 20 36.
 - Page Formations : section « Formations sur mesure » (réseau d'experts, 9 thématiques, démarche en 4 étapes, dès 1 200 € la journée) et « Ateliers courts » (3 h 30, dès 650 €), recopiées du catalogue ; lien depuis le haut de page. Lot 5 et prix du présentiel validés par Assiata le 23/11/2026 (« publie lot 5 »).
+
+## 23/11/2026 — Lot 6 : pages formation aux couleurs de la charte, devis et programmes (demande d'Assiata)
+- Journées Prise de parole et Gestion des conflits : toujours « présentiel ou classe virtuelle » (7 h, intra, jusqu'à 10 participants, dès 1 200 € la journée, frais de déplacement en sus en présentiel) ; deux cartes dédiées sur la page Formations ; PDF du Drive mis à jour.
+- Page Formations : section sur mesure remontée juste après le haut de page, sur fond dégradé de la charte ; catalogue sur fond bleu clair, cartes avec bandeau coloré.
+- Chaque page formation : barre colorée après le haut de page (Télécharger le programme, Demander un devis, Prendre rendez-vous).
+- « Demander un devis » ouvre le formulaire /demande-de-devis (formation pré-remplie) ; la prise de rendez-vous reste proposée à côté.
+- « Télécharger le programme » ouvre /telecharger-programme : le PDF (dossier Drive « Programmes – envoi automatique ») s'ouvre après envoi du formulaire. Page non indexée par Google.
+- Les deux formulaires arrivent dans Zoho (Prospects), comme les autres formulaires du site.

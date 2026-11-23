@@ -39,3 +39,4 @@
 /devenir-formateur
 /diagnostic
 /sales-squad-diagnostic
+/demande-de-devis
