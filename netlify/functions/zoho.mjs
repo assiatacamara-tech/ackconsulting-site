@@ -17,6 +17,8 @@ const FORM_LABELS = {
   "qualification-formation": "Demande de qualification formation",
   "sales-squad": "ACK Sales Squad — projet de force commerciale",
   partenaire: "Candidature partenaire",
+  devis: "Demande de devis formation",
+  programme: "Téléchargement de programme de formation",
 };
 
 // « Comment nous avez-vous connu ? » → choix existants du champ Zoho « Canal d'acquisition »
@@ -36,6 +38,8 @@ const FIELD_LABELS = {
   company: "Société", entreprise: "Société", website: "Site web", sector: "Secteur", services: "Services proposés",
   target: "Cible", message: "Message", enjeu: "Enjeu", profil: "Profil", taille: "Taille de l'équipe commerciale",
   objectif: "Objectif", delai: "Délai", commerciaux: "Nombre de commerciaux envisagés", how_heard: "Comment nous avez-vous connu ?",
+  formation: "Formation", programme_choisi: "Programme téléchargé", format: "Format souhaité", participants: "Nombre de participants",
+  periode: "Période souhaitée", financement: "Financement envisagé", fonction: "Fonction",
   page: "Page du site", consentement: "Consentement RGPD (case cochée)",
 };
 
@@ -54,7 +58,7 @@ export function toZohoFields(formName, data) {
   const lines = [`[SITE WEB] ${FORM_LABELS[formName] || formName} — reçu le ${new Date().toLocaleString("fr-FR", { timeZone: "Europe/Paris" })}`];
   for (const [k, v] of Object.entries(d)) {
     if (!v || ["form-name", "bot-field", "ip", "user_agent", "referrer"].includes(k)) continue;
-    lines.push(`${FIELD_LABELS[k] || k} : ${Array.isArray(v) ? v.join(", ") : v}`);
+    lines.push(`${FIELD_LABELS[k] || k} : ${Array.isArray(v) ? [...new Set(v)].join(", ") : v}`);
   }
 
   const fields = {
@@ -67,7 +71,7 @@ export function toZohoFields(formName, data) {
     Description: lines.join("\n"),
   };
   fields.LEADCF3 = CANAL[d.how_heard] || "Site web — formulaire de contact";
-  if (formName === "qualification-formation") fields.LEADCF5 = "Me former ou former un membre de mon équipe";
+  if (["qualification-formation", "devis", "programme"].includes(formName)) fields.LEADCF5 = "Me former ou former un membre de mon équipe";
   return fields;
 }
 

@@ -4,3 +4,42 @@
 .ack-offres__autres .ack-lien { margin: 0 4px; }
 @media (max-width: 1024px) { .ack-etapes--5 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .ack-etapes--5 { grid-template-columns: 1fr; } }
+
+.f-barre { background: linear-gradient(135deg, #1e8482 0%, #055388 100%); padding: 26px 0; }
+.f-barre__in { max-width: 80rem; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+.f-barre__txt { color: #fff; font-weight: 700; font-size: 18px; margin: 0; }
+.f-barre__txt span { display: block; font-weight: 400; font-size: 14px; color: rgba(255,255,255,.85); }
+.f-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+.f-btns--centre { justify-content: center; }
+.f-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 22px; border-radius: 12px; font-weight: 700; font-size: 15px; text-decoration: none; transition: background-color .2s, color .2s; }
+.f-btn--blanc { background: #fff; color: #055388; }
+.f-btn--blanc:hover { background: #e6f9f8; }
+.f-btn--contour { border: 2px solid rgba(255,255,255,.75); color: #fff; }
+.f-btn--contour:hover { background: rgba(255,255,255,.14); }
+.f-btn--plein { background: #055388; color: #fff; }
+.f-btn--plein:hover { background: #1e8482; }
+.f-btn--ligne { border: 2px solid #055388; color: #055388; background: #fff; }
+.f-btn--ligne:hover { background: #e6f4fd; }
+.f-btn--petit { padding: 9px 16px; font-size: 14px; border-radius: 10px; }
+.f-cat { background: linear-gradient(180deg, #e6f4fd 0%, #e6f9f8 100%); }
+.f-carte { background: #fff; box-shadow: 0 10px 30px rgba(5,83,136,.08); }
+.f-bande { background: linear-gradient(135deg, #1e8482 0%, #055388 100%); color: #fff; padding: 12px 28px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; font-weight: 700; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.f-bande--bleu { background: linear-gradient(135deg, #055388 0%, #0b6fb0 100%); }
+.f-bande--turquoise { background: linear-gradient(135deg, #1e8482 0%, #48d4d1 100%); }
+.f-bande b { text-transform: none; letter-spacing: 0; font-size: 14px; background: rgba(255,255,255,.18); padding: 3px 12px; border-radius: 999px; }
+.f-carte__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.f-sm { background: linear-gradient(135deg, #055388 0%, #1e8482 100%); color: #fff; }
+.f-sm__sur { color: #48d4d1; font-weight: 700; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 12px; }
+.f-sm__titre { color: #fff; }
+.f-sm__texte { color: rgba(255,255,255,.9); }
+.f-sm__info { background: #fff; border-radius: 16px; padding: 22px; }
+.f-sm__theme { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.22); border-radius: 16px; padding: 22px; }
+.f-sm__theme h4 { color: #fff; font-weight: 700; margin-bottom: 6px; }
+.f-sm__theme p { color: rgba(255,255,255,.85); font-size: 14px; }
+.f-sm__etape { background: rgba(255,255,255,.1); border-radius: 14px; padding: 16px 18px; color: #fff; font-size: 14px; }
+.f-sm__etape b { display: block; color: #48d4d1; font-size: 13px; margin-bottom: 4px; }
+.f-formulaire { background: #fff; border-radius: 20px; box-shadow: 0 10px 30px rgba(5,83,136,.10); border-top: 6px solid #1e8482; padding: 32px; }
+.f-ok { background: #e6f9f8; border: 2px solid #1e8482; border-radius: 16px; padding: 24px; text-align: center; }
+.f-ok p { margin-bottom: 8px; }
+@media (max-width: 640px) { .f-btn { width: 100%; } .f-formulaire { padding: 22px; } }
+.f-btn--large { width: 100%; }
