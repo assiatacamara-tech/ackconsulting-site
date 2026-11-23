@@ -68,3 +68,4 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 - Organisation commerciale orientée performance : alignée sur le programme (60 h = environ 54 h d'e-learning + 6 séances de mentorat d'1 h, 6 modules), au lieu de 8 modules et 12 séances de coaching.
 - Prise de parole en public et Gestion des conflits : section « Aussi en présentiel » (7 h, intra, jusqu'à 10 participants, dès 1 200 € la journée, frais de déplacement en sus).
 - FAQ : liste des 8 formations, formats et durées à jour (formules Déclic / Accélération / Impact retirées). Accessibilité : numéro 07 80 71 20 36.
+- Page Formations : section « Formations sur mesure » (réseau d'experts, 9 thématiques, démarche en 4 étapes, dès 1 200 € la journée) et « Ateliers courts » (3 h 30, dès 650 €), recopiées du catalogue ; lien depuis le haut de page.
