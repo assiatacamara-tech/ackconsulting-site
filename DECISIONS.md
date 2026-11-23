@@ -86,3 +86,4 @@ Chaque décision validée par Assiata est notée ici. Les agents relisent ce fic
 ## Lot 7 — Diagnostic commercial sur la page d'accueil (23/11/2026)
 - Bloc « Votre machine commerciale est-elle prête à grandir ? » ajouté en bas de la page d'accueil, avant l'appel final, vers le formulaire Tally LDZ0pj (?source=site-accueil).
 - Le résultat s'affiche à l'écran à la fin du questionnaire ; pas d'envoi par e-mail (choix d'Assiata : l'e-mail automatique Tally demande Tally Pro).
+- Page /diagnostic alignée sur le positionnement commercial (plus de Zéro Lead Perdu, de compétences ni de potentiel « humain » dans le texte visible). Le formulaire « Diagnostic Express » (PDF jamais envoyé) est remplacé par un bouton vers le même Tally (?source=site-diagnostic).
