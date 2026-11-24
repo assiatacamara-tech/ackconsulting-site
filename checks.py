@@ -235,7 +235,7 @@ for path, page in pages():
 
 # 9. Blocs verrouillés : toute modification d'un bloc validé bloque la mise en ligne
 locked = sorted(os.path.join("src", "partials", f) for f in os.listdir(os.path.join(ROOT, "src", "partials")))
-locked += ["assets/site.css", "assets/site.js", "assets/consent.js", "assets/ack.css", "assets/video.js"]
+locked += ["assets/site.css", "assets/site.js", "assets/consent.js", "assets/ack.css", "assets/video.js", "assets/complements.css"]
 state = {f: hashlib.sha256(open(os.path.join(ROOT, f), "rb").read()).hexdigest() for f in locked}
 if "--lock" in sys.argv:
     json.dump(state, open(LOCKS, "w"), indent=1, sort_keys=True)
@@ -260,6 +260,19 @@ for path, page in all_pages.items():
     for fm in re.findall(r"<form\b[^>]*data-netlify=\"true\"[^>]*>", page):
         check("data-form=" in fm, f"[{path}] formulaire sans data-form : {fm[:80]}")
 
+
+# 14. Retours à la ligne masqués sur mobile : un espace doit séparer les mots, sinon ils se collent sur téléphone
+for path, page in all_pages.items():
+    for m in re.findall(r'[^\s>]<br class="hidden[^"]*"\s*/?>[^\s<]', page):
+        check(False, f"[{path}] mots collés sur mobile autour d'un retour à la ligne masqué : {m}")
+
+# 15. Rangées de boutons : espacement par marges, car « gap » est ignoré par les anciens Safari (boutons collés)
+COMPL = open(os.path.join(ROOT, "assets", "complements.css"), encoding="utf-8").read()
+for sel in (".f-btns", ".f-carte__actions"):
+    for rule in re.findall(re.escape(sel) + r"\s*\{([^}]*)\}", COMPL):
+        check(not re.search(r"(^|[;\s])gap\s*:", rule), f"[complements.css] {sel} espacé avec gap : boutons collés sur les anciens Safari")
+    check(re.search(re.escape(sel) + r"\s*>\s*\*\s*\{[^}]*margin", COMPL), f"[complements.css] {sel} : les boutons n'ont pas de marge entre eux")
+
 if errors:
     print(f"ÉCHEC : {len(errors)} vérification(s) en échec sur {count}. Mise en ligne bloquée.\n")
     for e in errors:
@@ -267,8 +280,3 @@ if errors:
     sys.exit(1)
 print(f"OK : {count} vérifications réussies.")
 
-
-# 14. Retours à la ligne masqués sur mobile : un espace doit séparer les mots, sinon ils se collent sur téléphone
-for path, page in all_pages.items():
-    for m in re.findall(r'[^\s>]<br class="hidden[^"]*"\s*/?>[^\s<]', page):
-        check(False, f"[{path}] mots collés sur mobile autour d'un retour à la ligne masqué : {m}")
